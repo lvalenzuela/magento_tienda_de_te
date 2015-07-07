@@ -1,0 +1,376 @@
+store,websites,attribute_set,type,category_ids,url,sku,has_options,name,meta_title,meta_description,image,small_image,thumbnail,url_key,url_path,custom_design,page_layout,options_container,image_label,small_image_label,thumbnail_label,country_of_manufacture,msrp_enabled,msrp_display_actual_price_type,gift_message_available,price,special_price,weight,msrp,color,status,visibility,tax_class_id,format,description,short_description,meta_keyword,custom_layout_update,special_from_date,special_to_date,news_from_date,news_to_date,custom_design_from,custom_design_to,qty,min_qty,use_config_min_qty,is_qty_decimal,backorders,use_config_backorders,min_sale_qty,use_config_min_sale_qty,max_sale_qty,use_config_max_sale_qty,is_in_stock,low_stock_date,notify_stock_qty,use_config_notify_stock_qty,manage_stock,use_config_manage_stock,stock_status_changed_auto,use_config_qty_increments,qty_increments,use_config_enable_qty_inc,enable_qty_increments,is_decimal_divided,stock_status_changed_automatically,use_config_enable_qty_increments,product_name,store_id,product_type_id,product_status_changed,product_changed_websites,materials
+tienda_de_te,base,Tea,simple,3,,912,0,Blooming Tea: Te de Flores 3 Unidades,,,,,,blooming-tea-te-de-flores,blooming-tea-te-de-flores.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"<a href=""http://tiendadete.kongo.cl/wp-content/uploads/2013/12/Blooming.jpg""><img class=""aligncenter size-full wp-image-2683"" title=""Blooming"" src=""http://tiendadete.kongo.cl/wp-content/uploads/2013/12/Blooming.jpg"" alt="""" width=""2048"" height=""1365"" /></a>Dentro de cada bolita de te verde se encuentra encerrada con artesanal maestri�Â�­a, una exotica flor. Su secreto sera revelado una vez que la bolita sea depositada en un recipiente con agua hirviendo. i�Â�sta empezara a abrirse muy despacio y, al final de la puesta en escena, surgira la flor que esconde dentro con gran colorido y forma
+
+<strong>Presentacion: Bolsa con 3 flores.</strong>
+
+<strong>Rinde: 800 ml c/flor</strong>
+
+<a href=""http://tiendadete.kongo.cl/wp-content/uploads/2013/12/blooming.gif""><img class=""aligncenter size-full wp-image-2315"" title=""Blooming"" src=""http://tiendadete.kongo.cl/wp-content/uploads/2013/12/blooming.gif"" alt="""" width=""500"" height=""375"" /></a>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Blooming Tea: Te de Flores 3 Unidades,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,921,0,Te Matcha: Te Verde en Polvo Frasco 100 grs.,,,,,,matcha-te-verde-en-polvo,matcha-te-verde-en-polvo.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,9900,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"<p style=""text-align: left;"">El te verde tiene muchas variedades para ofrecer. Las hay en todas las variantes que podamos imaginar. Y tambien viene en polvo, conociendose como te Matcha a ese tipo de te verde. El te Matcha sirve tanto para ser bebido (fri�Â�­o o caliente) como asi�Â�­ tambien para colaborar en la preparacion de diversas comidas.</p>
+<p style=""text-align: left;"">Al consumir te Matcha se logra asimilar mucho mejor todas las propiedades del te verde convencional, porque se esta consumiendo la hoja entera del te y no solo una infusion.</p>
+El te Matcha es origen chino, pero de uso mas difundido en Japon. El proceso de elaboracion del te Matcha comienza cuando las plantas de te son cubiertas para protegerlas de los rayos solares. De ese modo se logra que el te posea muchos mas aminoacidos y, ademas, que resulte mas dulce, obteniendo una coloracion verde mas intensa.
+<h3>Modo de preparacion</h3>
+�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�¢�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�¢ Llevar a ebullicion el agua
+�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�¢�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�¢ Dejar enfriar el agua hasta que alcance unos 80�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�º C
+�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�¢�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�¢ Poner 1 g de te Matcha (�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�½ cucharadita) en una tasa
+�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�¢�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�¢ Verter aprox. 80 ml de agua (80�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â�º C) sobre el te
+<h3>Beneficios</h3>
+1. Incrementa el nivel de energi�Â�­a hasta por 4 horas.
+2. Crea un estado de alerta mental relajado y tranquilo.
+3. Aumenta el metabolismo hasta un 40% en los consumidores habituales.
+4. Ayuda a mantener niveles saludables de azucar en la sangre.
+5. Mantiene los niveles de colesterol dentro de un rango normal.
+6. Actuar como un alcalinizante y desintoxicante sangui�Â�­neo potente.
+7. Ayuda a fomentar dientes y enci�Â�­as sanos.
+
+&nbsp;
+<ul>
+	<li><strong>Este producto fue publicado en Emol.com. <a title=""ArTea en Emol.com"" href=""http://www.emol.com/tendenciasymujer/Noticias/2014/01/04/25130/Te-Matcha-mejor-que-el-te-verde-y-el-cafe.aspx"" target=""_blank"">Lee aqui�Â�­ el reportaje a ArTea: Te Matcha, mejor que el te verde y el cafe</a>.</strong></li>
+	<li><strong>El periodico britanico The Independent opina que el Te Matcha sera la proxima sensacion mundial.�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� <a href=""http://www.independent.co.uk/life-style/food-and-drink/features/matcha-the-day-heard-about-the-soft-drink-thats-set-to-be-the-next-big-thing-8927953.html"" target=""_blank"">Lee aqui�Â�­ el reportaje de The Independent</a>.</strong></li>
+</ul>
+&nbsp;
+
+<strong>Presentacion: Frasco 100 grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 50 porciones aprox.</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Matcha: Te Verde en Polvo Frasco 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,927,0,Berry Dream: Bolsa 50 grs.,,,,,,berry-dream,berry-dream.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3700,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Refrescante infusion de frutas que combina deliciosas frutas aromaticas con flores, para entregarnos una infusion rica en sabor, color y aroma.
+
+<strong>Presentacion: Bolsa 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>
+
+<strong>
+</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Berry Dream: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,929,0,Citrus Syrup,,,,,,citrus-syrup,citrus-syrup.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,#N/A,,,,,Enabled,"Catalog, Search",Taxable Goods,,"Una exquisita infusion, de multiples sabores ci�Â�­tricos y delicioso perfume, que atrapa a los sentidos y cautiva hasta los paladares mas exigentes.
+
+<strong>Presentacion Frasco especial para regalo 50 gr</strong>
+
+<strong>Rinde: 15-20 porciones</strong>
+
+<strong>
+</strong>
+
+&nbsp;",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Citrus Syrup,1,simple,,,
+tienda_de_te,base,Accesorios,simple,4,,931,0,Mini Tetera Vidrio 300 ml,,,,,,mini-tetera-300-ml,mini-tetera-300-ml.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,11900,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"Hermosa mini tetera de 300 ml. Hecha a mano y originaria de China, resulta ideal para servir el te de flores, no solo por su diseño elegante y de vidrio, si no que tambien porque cuenta con un sistema de filtro que contiene las pequeñas hojas de te verde que puedan desprenderse.
+
+Preciosa para regalar o para disfrutar con amigos toda la magia de los Blooming tea!",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Mini Tetera Vidrio 300 ml,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,940,0,Perlas de Jazmin AGOTADAS!!!,,,,,,perlas-de-jazmin,perlas-de-jazmin.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,#N/A,,,,,Enabled,"Catalog, Search",Taxable Goods,,"Te de la provincia de Fujian (China) cuyas hojas estan enrolladas a mano en forma de delicadas perlas. A pesar de estar catalogado como te verde, esta formado eminentemente por tiernos brotes, propios del te blanco.
+Es conocido por su suave fragancia a jazmi�Â�­n que se adquiere al mezclarlo con estas flores durante el proceso de secado. Despues todas ellas son apartadas para que lo�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� unico que llegue a nuestras tazas sea el exquisito te.
+
+<strong>Presentacion Frasco 50 gr</strong>
+
+<strong>Rinde: 15-20 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Perlas de Jazmin AGOTADAS!!!,1,simple,,,
+tienda_de_te,base,Accesorios,simple,4,,946,0,Tetera Vidrio 800 ml,,,,,,tetera-vidrio-800-ml,tetera-vidrio-800-ml.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,15900,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"Hermosa tetera de vidrio, resistente al calor, de 800 ml. Posee un recipiente o filtro removible que la hace perfecta para servir cualquier tipo de te en hoja y por supuesto, ideal para servir los hermosos blooming tea. Resistente, elegante y funcional.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Tetera Vidrio 800 ml,1,simple,,,
+tienda_de_te,base,Accesorios,simple,4,,1068,0,Infusor de Te - Nota Musical,,,,,,infusor-musical-para-el-te,infusor-musical-para-el-te.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2000,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Un precioso infusor que te permitira disfrutar, de manera individual, de tus infusiones favoritas. Practico, comodo, entretenido y reutilizable. Solo debes colocar en su interior la infusion que desees preparar y listo!
+
+Colores disponibles: blanco.
+
+Dale un toque entretenido a la hora de tomar te!",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Infusor de Te - Nota Musical,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1113,0,Te Rojo con Rosas: Bolsa 50 grs.,,,,,,te-rojo-con-rosas,te-rojo-con-rosas.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4800,,"0,05",,,Enabled,"Catalog, Search",Taxable Goods,,"Todas las propiedades beneficas del te rojo combinadas con el delicioso aroma de botones de rosas. Por mucho tiempo, los chinos han utilizado los botones de rosas para calmar la ansiedad y la depresion. La exquisita y dulce suavidad de su aroma, combinada con su reconocido valor terapeutico, han hecho de las rosas parte de la medicina y perfumeri�Â�­a de la antigua Persia, Egipto, Grecia y China
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 15-20 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo con Rosas: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1238,0,Te Verde con Botones de Jazmin: Bolsa 50 grs.,,,,,,te-verde-con-jazmin,te-verde-con-jazmin.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4800,,"0,05",,,Enabled,"Catalog, Search",Taxable Goods,,"Delicadamente perfumado por los tiernos botones de jazmi�Â�­n, esta mezcla ofrece todos los beneficios del te verde con una suave nota floral. Disfruta de esta exquisita mezcla, 100% natural, dulce y perfumada.
+
+<strong>Presentacion:�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� Bolsa 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Botones de Jazmin: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1265,0,Spicy Muse: Bolsa 50 grs.,,,,,,spicy-muse-te-verde,spicy-muse-te-verde.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3700,,"0,05",,,Enabled,"Catalog, Search",Taxable Goods,,"Explosiva y deliciosa mezcla de te verde y especias, que contiene variados ingredientes, como la canela, un clasico acompañante del te a la hora de once. Su sabor frutal y vibrante cautiva los sentidos y traslada hacia tierras lejanas, donde los te picantes y aromaticos son los predilectos, tan antiguos como los cimientos de las civilizaciones orientales.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Spicy Muse: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1414,0,Blooming Tea: Frasco 10 Unidades,,,,,,blooming-tea-frasco-10-unidades,blooming-tea-frasco-10-unidades.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,9000,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"Dentro de cada bolita de te verde se encuentra encerrada con artesanal maestri�Â�­a, una exotica flor. Su secreto sera revelado una vez que la bolita sea depositada en un recipiente con agua hirviendo. i�Â�sta empezara a abrirse muy despacio y, al final de la puesta en escena, surgira la flor que esconde dentro con gran colorido y forma
+
+<strong>Presentacion: Frasco con 10 flores.</strong>
+
+<strong>Rinde: 800 ml c/flor</strong>
+
+<a href=""http://tiendadete.kongo.cl/wp-content/uploads/2013/12/blooming.gif""><img class=""aligncenter size-full wp-image-2315"" title=""Blooming"" src=""http://tiendadete.kongo.cl/wp-content/uploads/2013/12/blooming.gif"" alt="""" width=""500"" height=""375"" /></a>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Blooming Tea: Frasco 10 Unidades,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1416,0,Blooming Tea: Frasco 15 Unidades,,,,,,blooming-tea-frasco-15-unidades,blooming-tea-frasco-15-unidades.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,12000,,0.15,,,Enabled,"Catalog, Search",Taxable Goods,,"Dentro de cada bolita de te verde se encuentra encerrada con artesanal maestri�Â�­a, una exotica flor. Su secreto sera revelado una vez que la bolita sea depositada en un recipiente con agua hirviendo. i�Â�sta empezara a abrirse muy despacio y, al final de la puesta en escena, surgira la flor que esconde dentro con gran colorido y forma
+
+<strong>Presentacion: Frasco con 15 flores.</strong>
+
+<strong>Rinde: 800 ml c/flor</strong>
+
+<a href=""http://tiendadete.kongo.cl/wp-content/uploads/2013/12/blooming.gif""><img class=""aligncenter size-full wp-image-2315"" title=""Blooming"" src=""http://tiendadete.kongo.cl/wp-content/uploads/2013/12/blooming.gif"" alt="""" width=""500"" height=""375"" /></a>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Blooming Tea: Frasco 15 Unidades,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1486,0,Te Verde con Botones de Jazmin: Bolsa 100 grs.,,,,,,te-verde-con-botones-de-jazmin-bolsa-100-grs,te-verde-con-botones-de-jazmin-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,8400,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"Delicadamente perfumado por los tiernos botones de jazmi�Â�­n, esta mezcla ofrece todos los beneficios del te verde con una suave nota floral. Disfruta de esta exquisita mezcla, 100% natural, dulce y perfumada.
+
+<strong>Presentacion: Bolsa 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Botones de Jazmin: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1488,0,Te Verde con Botones de Jazmin: Frasco 50 grs.,,,,,,te-verde-con-botones-de-jazmin-frasco-50-grs,te-verde-con-botones-de-jazmin-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,5900,,"0,5",,,Enabled,"Catalog, Search",Taxable Goods,,"Delicadamente perfumado por los tiernos botones de jazmi�Â�­n, esta mezcla ofrece todos los beneficios del te verde con una suave nota floral. Disfruta de esta exquisita mezcla, 100% natural, dulce y perfumada.
+
+<strong>Presentacion: Frasco 50 grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Botones de Jazmin: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1540,0,Spicy Muse: Bolsa 100 grs.,,,,,,spicy-muse-bolsa-100-grs,spicy-muse-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4600,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"Explosiva y deliciosa mezcla de te verde y especias, que contiene variados ingredientes, como la canela, un clasico acompañante del te a la hora de once. Su sabor frutal y vibrante cautiva los sentidos y traslada hacia tierras lejanas, donde los te picantes y aromaticos son los predilectos, tan antiguos como los cimientos de las civilizaciones orientales.
+
+<strong>Presentacion: <strong>Bolsa 100</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Spicy Muse: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1549,0,Spicy Muse: Frasco 50 grs.,,,,,,spicy-muse-frasco-50-grs,spicy-muse-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2600,,"0,05",,,Enabled,"Catalog, Search",Taxable Goods,,"Explosiva y deliciosa mezcla de te verde y especias, que contiene variados ingredientes, como la canela, un clasico acompañante del te a la hora de once. Su sabor frutal y vibrante cautiva los sentidos y traslada hacia tierras lejanas, donde los te picantes y aromaticos son los predilectos, tan antiguos como los cimientos de las civilizaciones orientales.
+
+<strong>Presentacion: <strong>Frasco 50</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Spicy Muse: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1575,0,Te Verde con Durazno: Bolsa 50 grs.,,,,,,te-verde-con-durazno-bolsa-50-grs,te-verde-con-durazno-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2100,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"La mezcla de te verde y durazno tiene un suave efecto depurador, ideal para limpiar y purificar el organismo y mejorar la piel.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Durazno: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1586,0,Te Verde con Durazno: Bolsa 100 grs.,,,,,,te-verde-con-durazno-bolsa-100-grs,te-verde-con-durazno-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3800,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"La mezcla de te verde y durazno tiene un suave efecto depurador, ideal para limpiar y purificar el organismo y mejorar la piel.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Durazno: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1590,0,Te Verde con Durazno: Frasco 50 grs.,,,,,,te-verde-con-durazno-frasco-50-grs,te-verde-con-durazno-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"La mezcla de te verde y durazno tiene un suave efecto depurador, ideal para limpiar y purificar el organismo y mejorar la piel.
+
+<strong>Presentacion: <strong>Frasco</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Durazno: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1609,0,Te Verde con Menta: Bolsa 50 grs.,,,,,,te-verde-con-menta-bolsa-50-grs,te-verde-con-menta-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2100,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Seleccion de te verde Gaoshan de primera clase mezclada con menta y limon naturales. Con su fresco sabor resulta un energico aporte de vitalidad.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Menta: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1618,0,Te Verde con Menta: Bolsa 100 grs.,,,,,,te-verde-con-menta-bolsa-100-grs,te-verde-con-menta-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3800,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"Seleccion de te verde Gaoshan de primera clase mezclada con menta y limon naturales. Con su fresco sabor resulta un energico aporte de vitalidad.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Menta: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1623,0,Te Verde con Menta: Frasco 50 grs.,,,,,,te-verde-con-menta-frasco-50-grs,te-verde-con-menta-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Seleccion de te verde Gaoshan de primera clase mezclada con menta y limon naturales. Con su fresco sabor resulta un energico aporte de vitalidad.
+
+<strong>Presentacion: <strong>Frasco</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Menta: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1642,0,Te Verde con Guayaba: Bolsa 50 grs.,,,,,,te-verde-con-guayaba-bolsa-50-grs,te-verde-con-guayaba-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2800,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te Verde con Guayaba ayuda a controlar el sobrepeso, regula la presion arterial, disminuye el colesterol y disminuye los niveles de azucar en la sangre.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Guayaba: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1657,0,Te Verde con Guayaba: Bolsa 100 grs.,,,,,,te-verde-con-guayaba-bolsa-100-grs,te-verde-con-guayaba-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4500,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te Verde con Guayaba ayuda a controlar el sobrepeso, regula la presion arterial, disminuye el colesterol y disminuye los niveles de azucar en la sangre.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Guayaba: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1661,0,Te Verde con Guayaba: Frasco 50 grs.,,,,,,te-verde-con-guayaba-frasco-50-grs,te-verde-con-guayaba-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4200,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te Verde con Guayaba ayuda a controlar el sobrepeso, regula la presion arterial, disminuye el colesterol y disminuye los niveles de azucar en la sangre.
+
+<strong>Presentacion: Frasco 50 grs. Ideal para regalo.</strong>
+
+<strong>Rinde: <strong>Rinde: 20 - 25 porciones</strong></strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Guayaba: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1674,0,Te Verde con Jazmin: Bolsa 50 grs.,,,,,,te-verde-con-jazmin-bolsa-50-grs,te-verde-con-jazmin-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2100,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te de Jazmi�Â�­n es recomendable para mujeres y niños. Calma la ansiedad, relaja el cuerpo, anima la mente y ayuda a las vi�Â�­as respiratorias.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Jazmin: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1686,0,Te Verde con Jazmin: Bolsa 100 grs.,,,,,,te-verde-con-jazmin-bolsa-100-grs,te-verde-con-jazmin-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3800,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te de Jazmi�Â�­n es recomendable para mujeres y niños. Calma la ansiedad, relaja el cuerpo, anima la mente y ayuda a las vi�Â�­as respiratorias.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Jazmin: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1689,0,Te Verde con Jazmin: Frasco 50 grs.,,,,,,te-verde-con-jazmin-frasco-50-grs,te-verde-con-jazmin-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te de Jazmi�Â�­n es recomendable para mujeres y niños. Calma la ansiedad, relaja el cuerpo, anima la mente y ayuda a las vi�Â�­as respiratorias.
+
+<strong>Presentacion:�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� Frasco 50 grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones.</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Jazmin: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1706,0,Te Verde con Manzana: Bolsa 50 grs.,,,,,,te-verde-con-manzana-bolsa-50-grs,te-verde-con-manzana-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2100,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te Verde con Manzana es antioxidante y ayuda a limpiar el estomago.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Manzana: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1712,0,Te Verde con Manzana: Bolsa 100 grs.,,,,,,te-verde-con-manzana-bolsa-100-grs,te-verde-con-manzana-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3800,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te Verde con Manzana es antioxidante y ayuda a limpiar el estomago.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Manzana: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1716,0,Te Verde con Manzana: Frasco 50 grs.,,,,,,te-verde-con-manzana-frasco-50-grs,te-verde-con-manzana-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te Verde con Manzana es antioxidante y ayuda a limpiar el estomago.
+
+<strong>Presentacion: <strong>Frasco</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde con Manzana: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1738,0,Te Rojo con Rosas: Bolsa 100 grs.,,,,,,te-rojo-con-rosas-bolsa-100-grs,te-rojo-con-rosas-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,8400,,"0,01",,,Enabled,"Catalog, Search",Taxable Goods,,"Todas las propiedades beneficas del te rojo combinadas con el delicioso aroma de botones de rosas. Por mucho tiempo, los chinos han utilizado los botones de rosas para calmar la ansiedad y la depresion. La exquisita y dulce suavidad de su aroma, combinada con su reconocido valor terapeutico, han hecho de las rosas parte de la medicina y perfumeri�Â�­a de la antigua Persia, Egipto, Grecia y China
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo con Rosas: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1743,0,Te Rojo con Rosas: Frasco 50 grs.,,,,,,te-rojo-con-rosas-frasco-50-grs,te-rojo-con-rosas-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,5900,,"0,01",,,Enabled,"Catalog, Search",Taxable Goods,,"Todas las propiedades beneficas del te rojo combinadas con el delicioso aroma de botones de rosas. Por mucho tiempo, los chinos han utilizado los botones de rosas para calmar la ansiedad y la depresion. La exquisita y dulce suavidad de su aroma, combinada con su reconocido valor terapeutico, han hecho de las rosas parte de la medicina y perfumeri�Â�­a de la antigua Persia, Egipto, Grecia y China
+
+<strong>Presentacion: Frasco</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs. Ideal para�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo con Rosas: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1759,0,Te Rojo con Ginseng: Bolsa 50 grs.,,,,,,te-rojo-con-ginseng-bolsa-50-grs,te-rojo-con-ginseng-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2800,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Seleccion de te rojo mezclado con ginseng que se prepara con una singular minuciosidad artesana. Combate el cansancio y aumenta las defensas.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo con Ginseng: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1767,0,Te Rojo con Ginseng: Bolsa 100 grs.,,,,,,te-rojo-con-ginseng-bolsa-100-grs,te-rojo-con-ginseng-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4500,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"Seleccion de te rojo mezclado con ginseng que se prepara con una singular minuciosidad artesana. Combate el cansancio y aumenta las defensas.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo con Ginseng: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1770,0,Te Rojo con Ginseng: Frasco 50 grs.,,,,,,te-rojo-con-ginseng-frasco-50-grs,te-rojo-con-ginseng-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4200,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Seleccion de te rojo mezclado con ginseng que se prepara con una singular minuciosidad artesana. Combate el cansancio y aumenta las defensas.
+
+<strong>Presentacion: Frasco 50�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo con Ginseng: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1788,0,Pack Regalo: Frasco 50 grs  Infusor Colgante,,,,,,pack-regalo-frasco-50-grs-infusor-colgante,pack-regalo-frasco-50-grs-infusor-colgante.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4800,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"Si estas buscando algo original y entretenido para regalar, con este pack para regalo te vas a lucir. Ideal como regalo de cumpleaños, amigo secreto, fiestas de fin de año, etc. Para mujeres y hombres de todas las edades.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Pack Regalo: Frasco 50 grs  Infusor Colgante,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1798,0,Pack Regalo: Frasco 50 grs  Infusor,,,,,,pack-regalo-frasco-50-grs-infusor-musical,pack-regalo-frasco-50-grs-infusor-musical.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4800,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"Si estas buscando algo original y entretenido para regalar, con este pack para regalo te vas a lucir. Ideal como regalo de cumpleaños, amigo secreto, fiestas de fin de año, etc. Para mujeres y hombres de todas las edades.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Pack Regalo: Frasco 50 grs  Infusor,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1803,0,Pack Regalo: Bolsa 50 grs  Infusor Colgante,,,,,,pack-regalo-bolsa-50-grs-infusor-colgante,pack-regalo-bolsa-50-grs-infusor-colgante.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3900,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"Si estas buscando algo original y entretenido para regalar, con este pack para regalo te vas a lucir. Ideal como regalo de cumpleaños, amigo secreto, fiestas de fin de año, etc. Para mujeres y hombres de todas las edades.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Pack Regalo: Bolsa 50 grs  Infusor Colgante,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1804,0,Pack Regalo: Bolsa 50 grs  Infusor,,,,,,pack-regalo-bolsa-50-grs-infusor-musical,pack-regalo-bolsa-50-grs-infusor-musical.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3900,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"Si estas buscando algo original y entretenido para regalar, con este pack para regalo te vas a lucir. Ideal como regalo de cumpleaños, amigo secreto, fiestas de fin de año, etc. Para mujeres y hombres de todas las edades.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Pack Regalo: Bolsa 50 grs  Infusor,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1817,0,Pack Regalo: Bolsa 100 grs  Infusor Colgante,,,,,,pack-regalo-bolsa-100-grs-infusor-colgante,pack-regalo-bolsa-100-grs-infusor-colgante.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,5700,,"0,15",,,Enabled,"Catalog, Search",Taxable Goods,,"Si estas buscando algo original y entretenido para regalar, con este pack para regalo te vas a lucir. Ideal como regalo de cumpleaños, amigo secreto, fiestas de fin de año, etc. Para mujeres y hombres de todas las edades.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Pack Regalo: Bolsa 100 grs  Infusor Colgante,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1818,0,Pack Regalo: Bolsa 100 grs  Infusor,,,,,,pack-regalo-bolsa-100-grs-infusor-musical,pack-regalo-bolsa-100-grs-infusor-musical.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,5700,,"0,15",,,Enabled,"Catalog, Search",Taxable Goods,,"Si estas buscando algo original y entretenido para regalar, con este pack para regalo te vas a lucir. Ideal como regalo de cumpleaños, amigo secreto, fiestas de fin de año, etc. Para mujeres y hombres de todas las edades.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Pack Regalo: Bolsa 100 grs  Infusor,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1836,0,Te Pu-Erh con Crisantemo: Bolsa 50 grs.,,,,,,te-pu-erh-con-crisantemo-bolsa-50-grs,te-pu-erh-con-crisantemo-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4800,,"0,05",,,Enabled,"Catalog, Search",Taxable Goods,,"Seleccion de te rojo mezclado con ginseng que se prepara con una singular minuciosidad artesana. Combate el cansancio y aumenta las defensas.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Pu-Erh con Crisantemo: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1842,0,Te Pu-Erh con Crisantemo: Bolsa 100 grs.,,,,,,te-pu-erh-con-crisantemo-bolsa-100-grs,te-pu-erh-con-crisantemo-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,8400,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"Seleccion de te rojo mezclado con ginseng que se prepara con una singular minuciosidad artesana. Combate el cansancio y aumenta las defensas.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Pu-Erh con Crisantemo: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1844,0,Te Pu-Erh con Crisantemo: Frasco 50 grs.,,,,,,te-pu-erh-con-crisantemo-frasco-50-grs,te-pu-erh-con-crisantemo-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,5900,,"0,05",,,Enabled,"Catalog, Search",Taxable Goods,,"Seleccion de te rojo mezclado con ginseng que se prepara con una singular minuciosidad artesana. Combate el cansancio y aumenta las defensas.
+
+<strong>Presentacion: Frasco 50�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Pu-Erh con Crisantemo: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1860,0,Berry Dream: Bolsa 100 grs.,,,,,,berry-dream-bolsa-100-grs,berry-dream-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,6600,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"Refrescante infusion de frutas que combina deliciosas frutas aromaticas con flores, para entregarnos una infusion rica en sabor, color y aroma.
+
+<strong>Presentacion: Bolsa 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>
+
+<strong>
+</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Berry Dream: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,1870,0,Berry Dream: Frasco 50 grs.,,,,,,berry-dream-frasco-50-grs,berry-dream-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Refrescante infusion de frutas que combina deliciosas frutas aromaticas con flores, para entregarnos una infusion rica en sabor, color y aroma.
+
+<strong>Presentacion: Frasco 50 grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>
+
+<strong>
+</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Berry Dream: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Accesorios,simple,4,,1906,0,Tetera Borosilicato con Filtro 1.000 ml,,,,,,tetera-con-filtro-1-000-ml,tetera-con-filtro-1-000-ml.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,11900,,,,,Enabled,"Catalog, Search",Taxable Goods,,Tetera de borosilicato de 1.000 ml. Posee un recipiente o filtro removible que la hace perfecta para servir cualquier tipo de te en hoja y por supuesto. Resistente y funcional.,,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Tetera Borosilicato con Filtro 1.000 ml,1,simple,,,
+tienda_de_te,base,Accesorios,simple,4,,2454,0,Infusor de Te - Tipo Clip,,,,,,infusor-tipo-clip,infusor-tipo-clip.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Un precioso infusor que te permitira disfrutar, de manera individual, de tus infusiones favoritas. Practico, comodo, entretenido y reutilizable. Solo debes colocar en su interior la infusion que desees preparar y listo!
+
+Colores disponibles: verde.
+
+Dale un toque entretenido a la hora de tomar te!",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Infusor de Te - Tipo Clip,1,simple,,,
+tienda_de_te,base,Accesorios,simple,4,,2458,0,Infusor de Te - Frutilla,,,,,,infusor-frutilla,infusor-frutilla.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Un precioso infusor de silicona que te permitira disfrutar, de manera individual, de tus infusiones favoritas. Practico, comodo, entretenido y reutilizable. Solo debes colocar en su interior la infusion que desees preparar y listo!
+
+Dale un toque entretenido a la hora de tomar te!",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Infusor de Te - Frutilla,1,simple,,,
+tienda_de_te,base,Accesorios,simple,4,,2464,0,Infusor de Te - Cisne,,,,,,infusor-cisne,infusor-cisne.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Un precioso infusor que te permitira disfrutar, de manera individual, de tus infusiones favoritas. Practico, comodo, entretenido y reutilizable. Solo debes colocar en su interior la infusion que desees preparar y listo!
+
+Colores disponibles: negro.
+
+Dale un toque entretenido a la hora de tomar te!",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Infusor de Te - Cisne,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2472,0,Pack Regalo: Tetera vidrio 800 ml  3 Te Bolsas 100 grs,,,,,,pack-fanaticos-tetera-vidrio-800-ml-3-te-bolsas-100-grs,pack-fanaticos-tetera-vidrio-800-ml-3-te-bolsas-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,27900,,"0,6",,,Enabled,"Catalog, Search",Taxable Goods,,"Si estas buscando algo original y entretenido para regalar, con este pack para regalo te vas a lucir. Ideal como regalo de cumpleaños, amigo secreto, fiestas de fin de año, etc. Para mujeres y hombres de todas las edades.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Pack Regalo: Tetera vidrio 800 ml  3 Te Bolsas 100 grs,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2481,0,Pack Regalo: Tetera vidrio 800 ml  5 Te Bolsas 100 grs,,,,,,pack-fanaticos-tetera-vidrio-800-ml-5-te-bolsas-100-grs,pack-fanaticos-tetera-vidrio-800-ml-5-te-bolsas-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,32900,,"0,8",,,Enabled,"Catalog, Search",Taxable Goods,,"Si estas buscando algo original y entretenido para regalar, con este pack para regalo te vas a lucir. Ideal como regalo de cumpleaños, amigo secreto, fiestas de fin de año, etc. Para mujeres y hombres de todas las edades.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Pack Regalo: Tetera vidrio 800 ml  5 Te Bolsas 100 grs,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2485,0,Pack Regalo: Tetera vidrio 300 ml  Frasco 15 Bloomings,,,,,,pack-fanaticos-tetera-vidrio-300-ml-frasco-15-bloomings,pack-fanaticos-tetera-vidrio-300-ml-frasco-15-bloomings.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,20900,,"0,6",,,Enabled,"Catalog, Search",Taxable Goods,,"Si estas buscando algo original y entretenido para regalar, con este pack para regalo te vas a lucir. Ideal como regalo de cumpleaños, amigo secreto, fiestas de fin de año, etc. Para mujeres y hombres de todas las edades.",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Pack Regalo: Tetera vidrio 300 ml  Frasco 15 Bloomings,1,simple,,,
+tienda_de_te,base,Accesorios,simple,4,,2508,0,Infusor de Te - Tipo Cuchara,,,,,,infusor-tipo-cuchara,infusor-tipo-cuchara.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2000,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Un precioso infusor que te permitira disfrutar, de manera individual, de tus infusiones favoritas. Practico, comodo, entretenido y reutilizable. Solo debes colocar en su interior la infusion que desees preparar y listo!
+
+Colores disponibles: blanco.
+
+Dale un toque entretenido a la hora de tomar te!",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Infusor de Te - Tipo Cuchara,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2545,0,Te Azul Oolong: Frasco 50 grs.,,,,,,te-azul-oolong-frasco-50-grs,te-azul-oolong-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4200,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Te Oolong, tambien conocido como te Wulong o te Azul, se trata de un te semi-fermentado cuyas hojas son mas largas y maduras. Posee un sabor particular, que vari�Â�­a segun la variedad, pudiendo ir desde un suave gusto a durazno con un toque floral, manteniendo un aroma dulce y un sabor suave. Su concentracion de cafei�Â�­na vari�Â�­a entre los rangos del te negro y el te verde.
+
+<strong>Presentacion:�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� Frasco 50 grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones.</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Azul Oolong: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2546,0,Te Azul Oolong: Bolsa 100 grs.,,,,,,te-azul-oolong-bolsa-100-grs,te-azul-oolong-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4500,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"Te Oolong, tambien conocido como te Wulong o te Azul, se trata de un te semi-fermentado cuyas hojas son mas largas y maduras. Posee un sabor particular, que vari�Â�­a segun la variedad, pudiendo ir desde un suave gusto a durazno con un toque floral, manteniendo un aroma dulce y un sabor suave. Su concentracion de cafei�Â�­na vari�Â�­a entre los rangos del te negro y el te verde.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Azul Oolong: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2547,0,Te Azul Oolong: Bolsa 50 grs.,,,,,,te-azul-oolong-bolsa-50-grs,te-azul-oolong-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2800,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Te Oolong, tambien conocido como te Wulong o te Azul, se trata de un te semi-fermentado cuyas hojas son mas largas y maduras. Posee un sabor particular, que vari�Â�­a segun la variedad, pudiendo ir desde un suave gusto a durazno con un toque floral, manteniendo un aroma dulce y un sabor suave. Su concentracion de cafei�Â�­na vari�Â�­a entre los rangos del te negro y el te verde.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Azul Oolong: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2601,0,Te Verde: Bolsa 50 grs.,,,,,,te-verde-bolsa-50-grs,te-verde-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2100,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te Verde el tipo de te mas popular, principalmente por ser la bebida mas consumida en Asia. Algunos te verdes son perfumados con esencias de flores mezclados con frutas para crear tes aromatizados y con sabor. Este tipo de te contiene solamente un 5 a 10% de cafei�Â�­na por taza. Ademas, posee gran cantidad de antioxidantes, es bueno para la piel y los dientes y puede usarse para mantener un nivel de azucar saludable en la sangre.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2606,0,Te Verde: Frasco 50 grs.,,,,,,te-verde-frasco-50-grs,te-verde-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te Verde el tipo de te mas popular, principalmente por ser la bebida mas consumida en Asia. Algunos te verdes son perfumados con esencias de flores mezclados con frutas para crear tes aromatizados y con sabor. Este tipo de te contiene solamente un 5 a 10% de cafei�Â�­na por taza. Ademas, posee gran cantidad de antioxidantes, es bueno para la piel y los dientes y puede usarse para mantener un nivel de azucar saludable en la sangre.
+
+<strong>Presentacion: Frasco 50 grs. Ideal para regalo.</strong>
+
+<strong>Rinde:�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� <strong>Rinde: 20 - 25 porciones</strong></strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2607,0,Te Verde: Bolsa 100 grs.,,,,,,te-verde-bolsa-100-grs,te-verde-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3800,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"El Te Verde el tipo de te mas popular, principalmente por ser la bebida mas consumida en Asia. Algunos te verdes son perfumados con esencias de flores mezclados con frutas para crear tes aromatizados y con sabor. Este tipo de te contiene solamente un 5 a 10% de cafei�Â�­na por taza. Ademas, posee gran cantidad de antioxidantes, es bueno para la piel y los dientes y puede usarse para mantener un nivel de azucar saludable en la sangre.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Verde: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2630,0,Te Rojo: Bolsa 50 grs.,,,,,,te-rojo-bolsa-50-grs,te-rojo-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2100,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Te Rojo o Te Pu-erh�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� posee un aroma a tierra distintivo. Se diferencia del te negro ya que a esta variedad se le deja crecer una capa delgada de moho en las hojas. Por supuesto, estos son inofensivos y son conocidos en la cultura China por tener efectos medicinales. Como los grandes vinos reserva, al�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� <em>pu-erh</em>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� se lo deja añejar por varios años en barricas de madera hasta que adquiere su gusto inconfundible.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2632,0,Te Rojo: Bolsa 100 grs.,,,,,,te-rojo-bolsa-100-grs,te-rojo-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3800,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"Te Rojo o Te Pu-erh�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� posee un aroma a tierra distintivo. Se diferencia del te negro ya que a esta variedad se le deja crecer una capa delgada de moho en las hojas. Por supuesto, estos son inofensivos y son conocidos en la cultura China por tener efectos medicinales. Como los grandes vinos reserva, al�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� <em>pu-erh</em>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� se lo deja añejar por varios años en barricas de madera hasta que adquiere su gusto inconfundible.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2633,0,Te Rojo: Frasco 50 grs.,,,,,,te-rojo-frasco-50-grs,te-rojo-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,3500,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Te Rojo o Te Pu-erh�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� posee un aroma a tierra distintivo. Se diferencia del te negro ya que a esta variedad se le deja crecer una capa delgada de moho en las hojas. Por supuesto, estos son inofensivos y son conocidos en la cultura China por tener efectos medicinales. Como los grandes vinos reserva, al�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� <em>pu-erh</em>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� se lo deja añejar por varios años en barricas de madera hasta que adquiere su gusto inconfundible.
+
+<strong>Presentacion: Frasco 50�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� grs. Ideal para regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2688,0,Te Rojo con Cardamomo: Bolsa 50 grs.,,,,,,te-rojo-con-cardamomo-bolsa-50-grs,te-rojo-con-cardamomo-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4800,,"0,05",,,Enabled,"Catalog, Search",Taxable Goods,,"El cardamomo es una excelente especie que proviene de la cultura gastronomica oriental, sobre todo en los pai�Â�­ses arabes o en la India. Su sabor unico puede convertirse en una adicion perfecta para algunas preparaciones, como por ejemplo el te rojo con cardamomo, que deleitara tus sentidos.
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 15-20 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo con Cardamomo: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2690,0,Te Rojo con Cardamomo: Bolsa 100 grs.,,,,,,te-rojo-con-cardamomo-bolsa-100-grs,te-rojo-con-cardamomo-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,8400,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"El cardamomo es una excelente especie que proviene de la cultura gastronomica oriental, sobre todo en los pai�Â�­ses arabes o en la India. Su sabor unico puede convertirse en una adicion perfecta para algunas preparaciones, como por ejemplo el te rojo con cardamomo, que deleitara tus sentidos.
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo con Cardamomo: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2691,0,Te Rojo con Cardamomo: Frasco 50 grs.,,,,,,te-rojo-con-cardamomo-frasco-50-grs,te-rojo-con-cardamomo-frasco-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,5900,,"0,05",,,Enabled,"Catalog, Search",Taxable Goods,,"El cardamomo es una excelente especie que proviene de la cultura gastronomica oriental, sobre todo en los pai�Â�­ses arabes o en la India. Su sabor unico puede convertirse en una adicion perfecta para algunas preparaciones, como por ejemplo el te rojo con cardamomo, que deleitara tus sentidos.
+
+<strong>Presentacion: Frasco</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs. Ideal para�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� regalo.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Rojo con Cardamomo: Frasco 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2733,0,Te Azul con Arandano: Bolsa 50 grs.,,,,,,te-azul-con-arandano-bolsa-50-grs,te-azul-con-arandano-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2800,,"0,05",,,Enabled,"Catalog, Search",Taxable Goods,,"Te azul aromatico, suave y refrescante. Ideal para tomar a cualquier hora, desde el desayuno hasta la noche. El arandano es una especie ampliamente utilizada en la medicina tradicional desde la Antigi�Â�¼edad hasta la actualidad. Ya sea en infusion, su jugo o su fruto, su poder curativo es ampliamente reconocido y se basa en sus propiedades antidiarreicas, hipoglucemicas, antibacterianas, antiinflamatorias, antioxidantes y astringentes, entre otras.
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 15-20 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Azul con Arandano: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2734,0,Te Azul con Arandano: Bolsa 100 grs.,,,,,,te-azul-con-arandano-bolsa-100-grs,te-azul-con-arandano-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4500,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"Te azul aromatico, suave y refrescante. Ideal para tomar a cualquier hora, desde el desayuno hasta la noche. El arandano es una especie ampliamente utilizada en la medicina tradicional desde la Antigi�Â�¼edad hasta la actualidad. Ya sea en infusion, su jugo o su fruto, su poder curativo es ampliamente reconocido y se basa en sus propiedades antidiarreicas, hipoglucemicas, antibacterianas, antiinflamatorias, antioxidantes y astringentes, entre otras.
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Azul con Arandano: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2754,0,Te Azul con Pomelo: Bolsa 100 grs.,,,,,,te-azul-con-pomelo-bolsa-100-grs,te-azul-con-pomelo-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,8400,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"El pomelo deshidratado tiene cualidades diureticas y depurativas. Tiene un alto contenido en minerales y vitaminas. Elimina los parasitos intestinales. Tiene un alto contenido en Vitamina C reforzando nuestro organismo convirtiendolo en un gran antioxidante combatiendo los radicales libres. Previene el envejecimiento prematuro de nuestro organismo.
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Azul con Pomelo: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2755,0,Te Azul con Pomelo: Bolsa 50 grs.,,,,,,te-azul-con-pomelo-bolsa-50-grs,te-azul-con-pomelo-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4800,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"El pomelo deshidratado tiene cualidades diureticas y depurativas. Tiene un alto contenido en minerales y vitaminas. Elimina los parasitos intestinales. Tiene un alto contenido en Vitamina C reforzando nuestro organismo convirtiendolo en un gran antioxidante combatiendo los radicales libres. Previene el envejecimiento prematuro de nuestro organismo.
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 15-20 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Azul con Pomelo: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2771,0,Te Blanco: Bolsa 100 grs.,,,,,,te-blanco-bolsa-100-grs,te-blanco-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4500,,0.1,,,Enabled,"Catalog, Search",Taxable Goods,,"Es uno de los te mas antiguos que existen, y su valor radica en que es elaborado a partir unicamente de los botones de las hojas de la planta del te. Las antiguas leyendas cuentan que estos botones de hojas podi�Â�­an ser recogidos unicamente por vi�Â�­rgenes con guantes blancos. De un sabor suave, delicado aroma y un color claro, el te blanco es de produccion limitada, por lo que suele tener un costo mayor mas que sus contrapartes.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Blanco: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2772,0,Te Blanco: Bolsa 50 grs.,,,,,,te-blanco-bolsa-50-grs,te-blanco-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,2800,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"Es uno de los te mas antiguos que existen, y su valor radica en que es elaborado a partir unicamente de los botones de las hojas de la planta del te. Las antiguas leyendas cuentan que estos botones de hojas podi�Â�­an ser recogidos unicamente por vi�Â�­rgenes con guantes blancos. De un sabor suave, delicado aroma y un color claro, el te blanco es de produccion limitada, por lo que suele tener un costo mayor mas que sus contrapartes.
+
+<strong>Presentacion: <strong>Bolsa</strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 20 - 25 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Blanco: Bolsa 50 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2792,0,Te Blanco con Lavanda y Rosas: Bolsa 100 grs.,,,,,,te-blanco-con-lavanda-y-rosas-bolsa-100-grs,te-blanco-con-lavanda-y-rosas-bolsa-100-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,8400,,"0,1",,,Enabled,"Catalog, Search",Taxable Goods,,"La combinacion de lavanda y te blanco tiene un sabor dulce y suave. El te blanco se cosecha un poco antes de la primavera cuando aun hace fri�Â�­o y se secan las hojas naturalmente en el sol. La combinacion de lavanda y te blanco tiene un sabor dulce y suave que enriquecera tu cuerpo y alma.
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 100 grs.</strong>
+
+<strong>Rinde: 40 - 50 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Blanco con Lavanda y Rosas: Bolsa 100 grs.,1,simple,,,
+tienda_de_te,base,Tea,simple,3,,2793,0,Te Blanco con Lavanda y Rosas: Bolsa 50 grs.,,,,,,te-blanco-con-lavanda-y-rosas-bolsa-50-grs,te-blanco-con-lavanda-y-rosas-bolsa-50-grs.html,,No layout updates,Product Info Column,,,,,Use config,Use config,No,4800,,0.05,,,Enabled,"Catalog, Search",Taxable Goods,,"La combinacion de lavanda y te blanco tiene un sabor dulce y suave. El te blanco se cosecha un poco antes de la primavera cuando aun hace fri�Â�­o y se secan las hojas naturalmente en el sol. La combinacion de lavanda y te blanco tiene un sabor dulce y suave que enriquecera tu cuerpo y alma.
+
+<strong>Presentacion: Bolsa</strong><strong>�ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â��ï�¿�½�Ã�¯�ï�¿�½�Â�¿�ï�¿�½�Â�½�ï�¿�½�Ã��ï�¿�½�Â� 50 grs.</strong>
+
+<strong>Rinde: 15-20 porciones</strong>",,,,,,,,,,0,0,1,0,0,1,1,1,0,1,0,,,1,0,1,1,1,0,1,0,0,1,1,Te Blanco con Lavanda y Rosas: Bolsa 50 grs.,1,simple,,,

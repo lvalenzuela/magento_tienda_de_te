@@ -1,2 +1,8 @@
 #ignorar archivo con claves para servidor de bases de datos
 /app/etc/local.xml
+
+#ignorar archivos del cache
+/var/cache/*
+
+#ignorar archivos de session
+/var/session/*
