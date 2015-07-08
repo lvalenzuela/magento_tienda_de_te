@@ -6,3 +6,6 @@
 
 #ignorar archivos de session
 /var/session/*
+
+#ignorar reports
+/var/report/*
