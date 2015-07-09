@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <modules>
-        <GreenTI_TestModule>
-            <active>true</active>
-            <codePool>local</codePool>
-        </GreenTI_TestModule>
-    </modules>
-</config>
