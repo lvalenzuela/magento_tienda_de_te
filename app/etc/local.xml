@@ -28,10 +28,10 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Tue, 07 Jul 2015 18:52:44 +0000]]></date>
+            <date><![CDATA[Thu, 09 Jul 2015 18:48:19 +0000]]></date>
         </install>
         <crypt>
-            <key><![CDATA[0bdde275dc1c322a802acb041c99d50c]]></key>
+            <key><![CDATA[dc131906b9839057a8f9aa080a2d5936]]></key>
         </crypt>
         <disable_local_modules>false</disable_local_modules>
         <resources>
@@ -40,10 +40,10 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[system_admin]]></username>
-                    <password><![CDATA[smartbastard51]]></password>
-                    <dbname><![CDATA[magento_tienda_de_te]]></dbname>
+                    <host><![CDATA[50.16.0.56:3306]]></host>
+                    <username><![CDATA[developer]]></username>
+                    <password><![CDATA[demogreenti123]]></password>
+                    <dbname><![CDATA[magento_developer]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
