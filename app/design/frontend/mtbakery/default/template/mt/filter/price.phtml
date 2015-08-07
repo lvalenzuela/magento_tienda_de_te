@@ -1,0 +1,64 @@
+<?php
+/**
+ * @category    MT
+ * @package     MT_Filter
+ * @copyright   Copyright (C) 2008-2013 MagentoThemes.net. All Rights Reserved.
+ * @license     GNU General Public License version 2 or later
+ * @author      MagentoThemes.net
+ * @email       support@magentothemes.net
+ */
+?>
+<div id="<?php echo $this->getHash()?>" class="price-slider">
+    <div id="<?php echo $this->getHash('-min')?>" class="price-slider-handle min"><span></span></div>
+    <div id="<?php echo $this->getHash('-max')?>" class="price-slider-handle max"><span></span></div>
+    <div id="<?php echo $this->getHash('-span')?>" class="price-slider-span"></div>
+</div>
+<div class="layer-price">
+    <?php echo $this->getCurrencySymbol()?><span id="layer-price-min"></span>&nbsp;&nbsp;-&nbsp;&nbsp;<?php echo $this->getCurrencySymbol()?><span id="layer-price-max"></span>
+</div>
+<style type="text/css">
+    .price-slider{
+        height: 6px;
+        width: 86%;
+        background: #f6f6f6;
+        position: relative;
+        margin: 30px auto 20px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .price-slider .price-slider-handle{
+        position: absolute;
+        top: -6px;
+    }
+    .price-slider-handle.min,.price-slider-handle.max{
+        background: #ffffff;
+        width: 20px;
+        height:20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: 2px solid #2b2b2c;
+    }
+    .price-slider-handle.min.selected span,.price-slider-handle.max span,.price-slider-handle.min span {
+        background: none repeat scroll 0 0 #2b2b2c;
+        border: 3px solid #fff;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        display: block;
+        height: 16px;
+        width: 16px;
+    }
+
+    .layer-price{
+        text-align: center;
+    }
+</style>
+<script type="text/javascript">
+    if (!window.mtFilter) window.mtFilter = new MTFilter('mtFilter', {enable:false});
+    window.mtFilter.initPriceFilter(<?php echo $this->getConfig()?>);
+</script>

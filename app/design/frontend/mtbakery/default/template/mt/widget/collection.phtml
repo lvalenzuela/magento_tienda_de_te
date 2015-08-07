@@ -1,0 +1,91 @@
+<?php
+/**
+ * @category    MT
+ * @package     MT_Widget
+ * @copyright   Copyright (C) 2008-2014 MagentoThemes.net. All Rights Reserved.
+ * @license     GNU General Public License version 2 or later
+ * @author      MagentoThemes.net
+ * @email       support@magentothemes.net
+ */
+?>
+<?php
+$_helper = $this->helper('catalog/output');
+$theme = $this->helper('mtbakery');
+$helpImg = $this->helper('mtbakery/image');
+$imgWidth = $theme->getCfg('category/image_width') ? $theme->getCfg('category/image_width') : 295;
+$imgHeight = $theme->getCfg('category/image_height') ? $theme->getCfg('category/image_height') : 295;
+if($theme->getCfg('category/aspect_ratio')){$imgHeight = 0;}
+$cfaltimage = $theme->getCfg('category/alt_image');
+if($cfaltimage != 0){$hoveraltClass = ($cfaltimage == 1) ? 'front-img' : '';}
+/* @var $this MT_Widget_Block_Widget_Collection */
+$productCollection  = $this->getData('collection');
+$count              = $productCollection ? $productCollection->count() : 0;
+$carousel           = $this->getData('carousel');
+$row                = $this->getData('row');
+$column             = $carousel == 1 && $row == 1 ? $count : ($carousel == 1 && $row > 1 ? $row : $this->getData('column'));
+/* @var $helper Mage_Catalog_Helper_Image */
+$helper             = Mage::helper('catalog/image');
+?>
+<?php if (!$count): ?>
+    <p class="note-msg">
+        <?php echo $this->__('There are no products matching the selection.') ?>
+    </p>
+<?php else: ?>
+    <?php $i=0; foreach ($productCollection as $product): ?>
+        <?php /* @var $product Mage_Catalog_Model_Product */ ?>
+        <?php if ($carousel == 1 && $row > 1 && $i == 0): ?>
+            <div class="owl-carousel">
+        <?php endif ?>
+        <?php if ($i % $column == 0 || ($row > 1 && $i % $row == 0)): ?>
+        <div class="category-products">
+        <ul class="products-grid <?php echo $carousel && $row == 1 ? ' owl-carousel' : '' ?> <?php if ($carousel == 0):?>disable-owl-carousel<?php endif ?>">
+    <?php endif ?>
+        <?php $i++ ?>
+        <li class="item">
+            <div class="catpanel">
+                <div class="content products-list">
+                    <div class="product-hover">
+                        <a href="<?php echo $product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($product, 'small_image'), null, true) ?>" class="product-image">
+                            <span class="custom-feature"><?php echo $this->helper('mtbakery')->getLabel($product);  ?></span>
+                            <?php if ($carousel == 1): ?>
+                                <span class="front margin-image">
+                                    <img class="img-responsive lazyOwl <?php //echo $hoveraltClass;?>" data-src="<?php echo $helpImg->getImg($product, $imgWidth, $imgHeight, 'small_image'); ?>" src="<?php echo $this->getSkinUrl('images/loader.gif') ?>" alt="<?php echo $this->stripTags($this->getImageLabel($product, 'small_image'), null, true) ?>" />
+                                </span>
+                            <?php else: ?>
+                                <span class="front margin-image">
+                                    <img class="img-responsive <?php //echo $hoveraltClass;?>" src="<?php echo $helpImg->getImg($product, $imgWidth, $imgHeight, 'small_image'); ?>" src="<?php echo $this->getSkinUrl('images/loader.gif') ?>" alt="<?php echo $this->stripTags($this->getImageLabel($product, 'small_image'), null, true) ?>" />
+                                </span>
+                            <?php endif ?>
+                            <?php if ($theme->getCfg('category/alt_image')): ?>
+                                <span class="product-img-additional back margin-image">
+                                     <?php echo $theme->getAltImgHtml($product, $imgWidth, $imgHeight); ?>
+                                </span>
+                            <?php endif; ?>
+                        </a>
+                        <div class="product-intification-box"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+                        <div class="top-actions-inner top-actions-hide custom-top-actions-hide">
+                            <?php echo $this->getPriceHtml($product, true) ?>
+                            <h3 class="product-name">
+                                <a href="<?php echo $product->getProductUrl() ?>" title="<?php echo $this->stripTags($product->getName(), null, true) ?>">
+                                    <?php echo $_helper->productAttribute($product, $product->getName(), 'name') ?>
+                                </a>
+                            </h3>
+                            <div class="top-inner">
+                                <div class="table">
+                                    <?php echo $this->getReviewsSummaryHtml($product, 'short') ?>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <?php if ($i == $count || $i % $column == 0 || ($row > 1 && $i % $row == 0)): ?>
+        </ul>
+        </div>
+    <?php endif ?>
+        <?php if ($carousel == 1 && $row > 1 && $i == $count): ?>
+            </div>
+        <?php endif ?>
+    <?php endforeach ?>
+<?php endif ?>

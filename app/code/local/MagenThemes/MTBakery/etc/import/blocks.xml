@@ -1,0 +1,56 @@
+<root><blocks><cms_block><title>Block Banner Top (Home Page Fashion)</title><identifier>block-banner-fashion-top1</identifier><content><![CDATA[<div class="block-banner-bottom">
+<div class="mt_hover_shine">&nbsp;</div>
+<a href="#"> <img class="img-responsive" src="{{media url="wysiwyg/magenthemes/static/banner1.png"}}" alt="" /> </a></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Banner Top 2 (Home Page Fashion)</title><identifier>block-banner-fashion-top2</identifier><content><![CDATA[<div class="block-banner-bottom">
+<div class="mt_hover_shine">&nbsp;</div>
+<a href="#"> <img class="img-responsive" src="{{media url="wysiwyg/magenthemes/static/banner2.png"}}" alt="" /> </a></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Parallax (Home Fashion)</title><identifier>parallax-static-fashion</identifier><content><![CDATA[<div class="parallax-static">
+<div class="block-content-static"><span>New</span><strong> Collections</strong><span> 2014</span></div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Banner Products Detail Custom Block (Detail Fashion)</title><identifier>block_product_slidebar_right_fashion</identifier><content><![CDATA[<div class="cms-block">
+<div class="cms-block-content">
+<div class="mt-feature feature-icon-plane"><span class="icon"> <em class="fa fa-plane">&nbsp;</em> </span>
+<p class="no-margin ">We will send this product in 2 days.</p>
+</div>
+<div class="mt-feature feature-phone"><span class="icon"> <em class="fa fa-phone">&nbsp;</em> </span>
+<p class="no-margin ">Call us now for more info about our products.US</p>
+</div>
+<div class="mt-feature feature-icon-globe"><span class="icon"> <em class="fa fa-gift">&nbsp;</em> </span>
+<p class="no-margin ">Buy this product and earn 10 special loyalty points!</p>
+</div>
+</div>
+{{widget type="mtwidget/widget" widget_title="Top Rated Products" cache="86400" widget_type="product" widget_tab="none" mode="rating" category_ids="4" template="mt/widget/product-custom.phtml" limit="3" column="1"}}</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>About (Fashion)</title><identifier>about-fashion</identifier><content><![CDATA[<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">About<span class="accordion-footer visible-xs">accordion-footer</span></h3>
+<div class="block-content block-content-statick">
+<div class="about">
+<div class="block-about">
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla dictum vestibulum lorem. Nam justo magna, mattis quis, hendrerit id, molestie id, nibh. Nunc tempor gravida orci.</p>
+</div>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Contact Info (Fashion)</title><identifier>contact-info</identifier><content><![CDATA[<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">Contact Info<span class="accordion-footer visible-xs">accordion-footer</span></h3>
+<div class="block-content block-content-statick">
+<div class="feature">
+<div class="block-contact">
+<ul class="contacts-info-list">
+<li class="information first"><em class="fa fa-map-marker">&nbsp;</em>
+<div class="info-item">Room 501, 5th Floor, 169 Building, Nguyen Ngoc Vu Street, Cau Giay District, Hanoi, Vietnam</div>
+</li>
+<li class="information"><em class="fa fa-phone">&nbsp;</em>
+<div class="info-item">Call us <span class="info-phone">+84-462 818 296</span></div>
+</li>
+<li class="information last"><em class="fa fa-envelope">&nbsp;</em> <span class="info-item">Email <a href="mailto:hello@apl.vn">hello@apl.vn</a> </span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Connection (Fashion)</title><identifier>connection</identifier><content><![CDATA[<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">Connection<span class="accordion-footer visible-xs">accordion-footer</span></h3>
+<div class="block-content block-content-statick">
+<div class="connection">
+<div class="block-connection">{{block type="newsletter/subscribe" template="newsletter/subscribe.phtml"}}
+<div class="box-connect">
+<div class="icon-style-1 icon-size clearafter"><a class="facebook" href="#"> <span class="icon-facebook fa fa-facebook">&nbsp;</span> </a> <a class="twitter" href="#"><span class="icon-twitter fa fa-twitter">&nbsp;</span></a> <a class="dropbox" href="#"><span class="icon-google fa fa-dropbox">&nbsp;</span></a> <a class="linkedin" href="#"><span class="icon-linkedin fa fa-linkedin">&nbsp;</span></a> <a class="tumblr" href="#"><span class="icon-tumblr fa fa-tumblr">&nbsp;</span></a> <a class="rss" href="#"><span class="icon-rss fa fa-rss">&nbsp;</span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Logo Fashion</title><identifier>logo_footer</identifier><content><![CDATA[<p><img class="img-responsive" src="{{media url="wysiwyg/magenthemes/static/logo.png"}}" alt="" /></p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block></blocks></root>
