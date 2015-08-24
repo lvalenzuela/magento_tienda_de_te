@@ -38,7 +38,7 @@ $helper             = Mage::helper('catalog/image');
                     <?php if ($carousel == 1): ?>
                         <img class="lazyOwl" data-src="<?php echo $helper->init($_product, 'small_image')->resize(70, 70) ?>" width="70" height="70" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
                     <?php else: ?>
-                        <img src="<?php echo $helper->init($_product, 'small_image')->resize(70, 70) ?>" width="70" height="70" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
+                        <img src="<?php echo $helper->init($_product, 'small_image') ?>" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
                     <?php endif ?>
                 </a>
                 <div class="col-right">

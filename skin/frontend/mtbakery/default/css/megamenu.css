@@ -5,9 +5,9 @@
 .megamenu .fa{color:#fff;float: right;line-height: 30px;display: none;}
 #mtnav li {float: left;padding: 0;text-align: left;}
 #mtnav ul.level0 li:hover{background:none;}
-#mtnav li.level0 {display: block; margin: 0 10px;}
+#mtnav li.level0 {display: block; margin: 0 0px;}/*10px*/;}
 #mtnav a, #mtnav a:hover {display: block;outline: none;text-decoration: none;}
-#mtnav a {float: left;margin: 0;padding: 0 20px;font-weight: bold;letter-spacing: 2px;}
+#mtnav a {float: left;margin: 0;padding: 0 10px;font-weight: bold;letter-spacing: 2px;} /*20px;font-weight: bold;letter-spacing: 2px;}*/
 #mtnav a, #mtnav a:hover {display: block;outline: none;text-decoration: none;}
 #mtnav a{
 
