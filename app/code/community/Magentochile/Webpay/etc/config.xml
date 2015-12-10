@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magentochile_Webpay extension
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @category   Payment
+ * @package    Magentochile_Webpay
+ * @copyright  Copyright (c) 2013 Magento Chile LLC
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+/**
+ * @category   Payment
+ * @package    Magentochile_Webpay
+ * @author     Boris Duran R. <bduran@magentochile.cl>
+ */
+-->
+<config>
+    <modules>
+        <Magentochile_Webpay>
+            <version>0.1.0</version>
+        </Magentochile_Webpay>
+    </modules>
+    <global>
+    
+<!-- Mi código para pasarlo a community, porque no reconocía Helper/Data.php y solo lo tomaba como puesto en Mage-->
+     <helpers>
+        <webpay>
+            <class>Magentochile_Webpay_Helper</class>
+        </webpay>
+    </helpers>
+<!-- Fin de mi código para pasarlo a community, porque no reconocía Helper/Data.php y solo lo tomaba como puesto en Mage-->
+        <models>
+<!-- Mi código para pasarlo a community, porque no reconocía Order.php y solo lo tomaba como puesto en Mage-->
+        <sales>
+      <rewrite>
+        <order>Magentochile_Webpay_Model_Sales_Order</order>
+<!-- código para que el carrito no de vacie 14-12-12-->
+        <service_quote>Magentochile_Webpay_Model_Sales_Service_Quote</service_quote>
+<!-- fin código para que el carrito no de vacie 14-12-12-->
+        
+      </rewrite>
+    </sales>
+<!-- fin de mi código para pasarlo a community, porque no reconocía Order.php y solo lo tomaba como puesto en Mage-->
+            <webpay>
+                <class>Magentochile_Webpay_Model</class>
+                <resourceModel>webpay_mysql4</resourceModel>
+            </webpay>
+            <webpay_mysql4>
+                <class>Magentochile_Webpay_Model_Mysql4</class>
+                <entities>
+                    <api_debug><table>webpay_api_debug</table></api_debug>
+                </entities>
+            </webpay_mysql4>
+        </models>
+        <resources>
+            <webpay_setup>
+                <setup>
+                    <module>Magentochile_Webpay</module>
+                    <class>Magentochile_Webpay_Model_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </webpay_setup>
+            <webpay_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </webpay_write>
+            <webpay_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </webpay_read>
+        </resources>
+        <blocks>
+            <webpay><class>Magentochile_Webpay_Block</class></webpay>
+        </blocks>
+    </global>
+    <frontend>
+<!-- override Onepagecontroller -->    
+<routers>
+<checkout>
+<use>standard</use>
+<args>
+<modules>
+<Magentochile_Webpay before="Mage_Checkout">Magentochile_Webpay</Magentochile_Webpay>
+</modules>
+</args>
+</checkout>
+</routers> 
+<!-- fin override Onepagecontroller -->      
+        <secure_url>
+            <webpay_standard>/webpay/standard</webpay_standard>
+        </secure_url>
+        <routers>
+            <webpay>
+                <use>standard</use>
+                <args>
+                    <module>Magentochile_Webpay</module>
+                    <frontName>webpay</frontName>
+                </args>
+            </webpay>
+        </routers>
+        <translate>
+            <modules>
+                <Magentochile_Webpay>
+                    <files>
+                        <default>Magentochile_Webpay.csv</default>
+                    </files>
+                </Magentochile_Webpay>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <webpay>
+                    <file>webpay.xml</file>
+                </webpay>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Magentochile_Webpay>
+                    <files>
+                        <default>Magentochile_Webpay.csv</default>
+                    </files>
+                </Magentochile_Webpay>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <webpay>
+                                            <title>Webpay Section</title>
+                                        </webpay>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+    <default>
+        <webpay>
+
+        </webpay>
+        <payment>
+
+            <webpay_standard>
+                  <model>webpay/standard</model>
+                  <title>Webpay Standard</title>
+                  <allowspecific>0</allowspecific>
+                  <transaction_type>O</transaction_type>
+                  <order_status>pending_webpay</order_status>
+            </webpay_standard>
+        </payment>
+    </default>
+</config>

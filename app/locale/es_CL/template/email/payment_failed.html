@@ -1,0 +1,58 @@
+{* This is a comment block
+
+Use vars: {{var var_name}}
+*}<!--@subject Payment Transaction Failed Reminder @-->
+
+<table>
+    <thead>
+        <tr>
+            <th>Transacción de Pagos Fallida.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>Razón</b><br />
+                    {{var reason}}
+                </p>
+                <p>
+                    <b>Tipo de Checkout</b><br />
+                    {{var checkoutType}}
+                </p>
+                <p>
+                    <b>Cliente:</b><br />
+                    <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
+                </p>
+                <p>
+                    <b>Artículos</b><br />
+                    {{var items}}
+                </p>
+                <p>
+                    <b>Total:</b><br />
+                    {{var total}}
+                </p>
+                <p>
+                    <b>Dirección de Facturación:</b><br />
+                    {{var billingAddress.format('html')}}
+                </p>
+                <p>
+                    <b>Dirección de Despacho:</b><br />
+                    {{var shippingAddress.format('html')}}
+                </p>
+                <p>
+                    <b>Método de Despacho:</b><br />
+                    {{var shippingMethod}}
+                </p>
+                <p>
+                    <b>Método de Pago:</b><br />
+                    {{var paymentMethod}}
+                </p>
+                <p>
+                    <b>Fecha y Hora:</b><br />
+                    {{var dateAndTime}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

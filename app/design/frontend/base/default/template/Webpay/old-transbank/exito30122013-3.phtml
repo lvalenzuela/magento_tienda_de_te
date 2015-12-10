@@ -1,0 +1,251 @@
+<?php
+
+$trs_orden_compra = $_POST['TBK_ORDEN_COMPRA'];
+$hostname = "localhost";
+$database = "webpaynew";
+$username = "webpaynew";
+$password = "europa5150";
+$conexion = mysql_connect($hostname, $username, $password);
+mysql_select_db($database ,$conexion) or die("Error seleccionando la base de datos."); 
+mysql_query("SET NAMES 'utf8'");//esta función pone los acentos y eñes en la base de datos
+$sql_webpaypagos = "SELECT * FROM webpaypagos  order by TBK_ORDEN_COMPRA DESC Limit 1";
+$sql_webpay = "SELECT * FROM webpay order by TBK_ORDEN_COMPRA DESC Limit 1 ";
+
+//$result_port = mysql_query($sql_port, $conn);
+$fechapedido = date("Y-m-d");
+$result_webpaypagos = mysql_query($sql_webpaypagos, $conexion);
+$result_webpay = mysql_query($sql_webpay, $conexion);
+
+
+//Ingresado en 17-12-2012 para que al momento de "hackeo por parte de transbank se vaya a página de exito y no muestre duplate entry         
+
+ 
+	
+//Fin ingresado en 17-12-2012 para que al momento de "hackeo por parte de transbank se vaya a página de exito y no muestre duplate entry	
+
+
+$i=0;
+while($myrow_not = mysql_fetch_array($result_webpay))
+			{
+			$i++;
+		     
+			 $t_compra=$myrow_not['Tbk_Orden_Compra']; 
+			 $t_monto = $myrow_not['Tbk_Monto']; 
+			 $tar_final=$myrow_not['Tbk_Final_numero_Tarjeta']; 
+			 $cuotas=$myrow_not['Tbk_Numero_Cuotas']; 
+			 $autorizacion=$myrow_not['Tbk_Codigo_Autorizacion']; 
+		     $pagos=$myrow_not['Tbk_Tipo_Pago']; 
+			} //Fin While
+	$e=0;		
+while($myrow_p = mysql_fetch_array($result_webpaypagos))
+			{
+			$e++;
+		     $costo_producto=$myrow_p['costo_producto'];
+			 $costo_envio=$myrow_p['costo_envio'];
+		     $envio=$myrow_p['envio'];
+			 $t_producto=$myrow_p['PRODUCTO']; 
+			 $t_nombre = $myrow_p['usr_nombre']; 
+			 $t_apellido=$myrow_p['usr_apellido']; 
+			 $t_email=$myrow_p['usr_email'];
+			 $t_compra_fracaso=$myrow_p['TBK_ORDEN_COMPRA'];/* para rescatar la OC fracasada para webpay 6.0*/ 
+					
+			} //Fin While
+			
+
+$tipo_pago="CREDITO";
+switch($pagos){
+   case 'VN':
+      $vn = ("Sin Cuotas");
+      break;
+   case 'SI':
+      $vn= ("Sin Intereses");
+      break;
+   case 'VC':
+      $vn= ("Cuotas Normales");
+      break;
+   case 'CI':
+      $vn= ("Cuotas Normales");
+      break;
+   case 'VD':
+      $vn= ("DEBITO");
+      $tipo_pago="REDCOMPRA";
+      break;
+ }  		
+?>
+
+
+
+
+<div class="padder"><div class="page-head button-level">
+       <div align="justify">
+        <p><span class="Estilo2"><strong><?php echo " $t_nombre" ?><?php echo " $t_apellido" ?></strong>,         </span></p>
+         <p>Gracias por comprar en <strong>tiendamagento.com</strong><br>
+           Nos pondremos en contacto con Ud. para gestionar su orden. Usted puede comprobar el estado de su orden registrándose en su cuenta.<br>
+           
+            Si usted tiene alguna consulta respecto a su orden, por favor, póngase en contacto con <a href="mailto:contacto@tiendamagento.com">contacto@tiendamagento.com</a>, o llámenos al 600 444 000. De Lunes a Viernes, de 9:00 a 18:00 hrs.<br>
+           
+        
+           
+           
+          Gracias otra vez por su compra.</p>
+       </div>
+       <br><br>
+    <h3>
+    Pedido - <?php echo "$t_compra" ?>  </h3>
+</div>
+
+<div class="col2-set"><p>Fecha del Pedido: <?php echo $fechapedido ?> </p>  <div class="col2-set">
+    <div class="col-1">
+       <div class="head-alt3">
+          
+          <h5 class="title">Método de Pago por Venta de Producto</h5>
+        </div>
+        <!--<p>Tarjeta de Credito / Webpay<br />-->
+       <strong> URL del comercio:</strong> http://www.tiendamagento.com<br />
+        <strong>Tipo de Transacción: </strong>VENTA <br />
+        <strong>Codigo de Autorización: </strong><?php echo "$autorizacion" ?> 
+        <br />
+        <strong>Número de Tarjeta</strong>: XXXXXXXXXXXX-<?php echo "$tar_final" ?> 
+        <br />
+        <strong>Cantidad de Cuotas</strong>: 0<?php echo "$cuotas" ?> 
+        <br />
+        
+        <strong>Tipo de Pago</strong>: <?php echo "$tipo_pago" ?>
+        <br />
+        
+        <strong>Tipo de Cuotas</strong>: <?php echo "$vn" ?>
+    </div>
+    <div class="col-2">
+
+        <div class="head-alt3">
+            <h5 class="title">Artículos pedidos</h5>
+        </div>
+        
+ 
+<?php
+/* Eliminado el 27/12/2013
+<strong>Nombre del Producto</strong> :<?php echo $t_producto?><br /> 
+*/
+?>
+<style>
+.productwebpay {
+/*background-color: #f4f3f3;*/
+
+/*padding: 10px 10px 10px 10px;*/
+}
+</style> 
+
+<?php
+/* agregado el 27/12/2013*/
+//$customprice 		= sprintf("%0.2f",$item->getPrice())*1;
+//echo $customprice;
+
+// First, let's load some Load order details  
+$order_id = Mage::getSingleton('checkout/session')->getLastRealOrderId(); 
+$order_details = Mage::getModel('sales/order')->loadByIncrementId($order_id); 
+    /*** Product Listing ***/  
+    // Iterate through each product listing the sku, the name, the quantity ordered, and the item price  
+    //foreach ($order_details->getAllItems() as $item) {  eliminado porque muestra todos los productos de configurable como cero si es talla o color
+?>
+<table class="data-table" id="my-orders-table">
+    <col />
+    <col width="25%" />
+    <col width="1" />
+    <col width="1" />
+    <col width="1" />
+    
+<tfoot>
+<div class="productwebpay">         
+        <?php foreach ($order_details->getAllVisibleItems() as $item) {  
+         echo '<div class="product">'; 
+        ?> 
+         
+         <?php 
+         echo '<div class="line">
+         ' . $item->getName() . '';          
+         echo ' Precio: ' . Mage::helper("core")->currency($item->getPrice()) . '';  
+         echo ' Cantidad: ' . round($item->getQtyOrdered(), 0) . '';          
+         echo '</div>';            
+         echo '</div>';  
+    }  
+ ?>
+</div> 
+</tfoot>        
+</table>
+<script type="text/javascript">decorateTable('my-orders-table', {'tbody' : ['odd', 'even'], 'tbody tr' : ['first', 'last']})</script>
+<?php
+    // Get the product id from the item (useful later for loading product attribute information)  
+    $product_id = $item->getData('product_id');  
+
+
+
+
+/* fin agregado el 27/12/2013*/
+?>
+ 
+ <strong>Costo total de Producto(s) en Pesos</strong>: $<?php echo number_format($costo_producto, 0, '', '.') ?><br />
+ 
+ 
+ 
+ 
+ 
+ <?php echo "$envio" ?> 
+ <strong>- Costo de envío en Pesos</strong>: $<?php echo number_format($costo_envio, 0, '', '.') ?><br />
+ <strong>Monto Total en Pesos</strong>: $<?php echo number_format($t_monto, 0, '', '.') ?>
+        <br />      
+    </div>
+</div>
+  <strong>La entrega de su pedido se realizará dependiendo de su región    
+   </strong><br>
+   <strong>Para devoluciones y reembolsos de productos o para reclamos de productos contactarnos a: </strong> <a href="mailto:contacto@tiendamagento.com">contacto@tiendamagento.com</a></strong><br />
+<div class="col2-set">
+    <div class="col-1">
+
+        <div class="head-alt3">
+           
+        </div>
+        <address>
+</address>
+    </div>
+    <br />
+Fono: 600 444 000<br />
+<a href="mailto:contacto@mejorvivirmas.com">contacto@tiendamagento.com</a><br />
+Dirección: Calle Demo 300 - Oficina 600<br />
+Comuna: Las Condes<br />
+Ciudad: Santiago - Chile<br />
+Horario: Lunes a Viernes de 09:00 a 19:00 Hrs
+</div>
+</div>
+</div> 
+
+<?php
+
+$order_id = Mage::getSingleton('checkout/session')->getLastRealOrderId(); 
+$order_details = Mage::getModel('sales/order')->loadByIncrementId($order_id); 
+?>
+<table border="0" bordercolor="#FFCC00" style="background-color:#FFFFCC" width="100%" cellpadding="3" cellspacing="3">
+     
+        <?php foreach ($order_details->getAllVisibleItems() as $item) {  
+         echo '<div class="product">'; 
+        ?> 
+<tr>
+
+		<td><?php 
+         echo '<div class="line">
+         ' . $item->getName() . '';?></td>
+         <td><?php echo ' Cantidad: ' . round($item->getQtyOrdered(), 0) . '';?></td>
+		<td><?php echo ' Precio: ' . Mage::helper("core")->currency($item->getPrice()) . '';?></td>
+		
+	</tr>
+         
+<?php        
+    }  
+
+    $product_id = $item->getData('product_id');  
+
+?>
+ 
+
+
+	</table>
+

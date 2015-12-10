@@ -1,0 +1,365 @@
+<?php
+
+$trs_orden_compra = $_POST['TBK_ORDEN_COMPRA'];
+$hostname = "localhost";
+$database = "magento";
+$username = "kongo_developer";
+$password = "i1dont2know3";
+$conexion = mysql_connect($hostname, $username, $password);
+mysql_select_db($database ,$conexion) or die("Error seleccionando la base de datos."); 
+mysql_query("SET NAMES 'utf8'");//esta función pone los acentos y eñes en la base de datos
+$sql_webpaypagos = "SELECT * FROM webpaypagos  order by TBK_ORDEN_COMPRA DESC Limit 1";
+$sql_webpay = "SELECT * FROM webpay order by TBK_ORDEN_COMPRA DESC Limit 1 ";
+
+//$result_port = mysql_query($sql_port, $conn);
+$fechapedido = date("Y-m-d");
+$result_webpaypagos = mysql_query($sql_webpaypagos, $conexion);
+$result_webpay = mysql_query($sql_webpay, $conexion);
+
+
+//Ingresado en 17-12-2012 para que al momento de "hackeo por parte de transbank se vaya a página de exito y no muestre duplate entry         
+$RS_Ingresa = mysql_query($sql_webpay, $conexion); 
+
+
+if ($RS_Ingresa == $trs_orden_compra) {
+    header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}  
+
+//Fin ingresado en 17-12-2012 para que al momento de "hackeo por parte de transbank se vaya a página de exito y no muestre duplate entry	
+
+
+$i=0;
+while($myrow_not = mysql_fetch_array($result_webpay))
+			{
+			$i++;
+		     
+			 $t_compra=$myrow_not['Tbk_Orden_Compra']; 
+			 $t_monto = $myrow_not['Tbk_Monto']; 
+			 $tar_final=$myrow_not['Tbk_Final_numero_Tarjeta']; 
+			 $cuotas=$myrow_not['Tbk_Numero_Cuotas']; 
+			 $autorizacion=$myrow_not['Tbk_Codigo_Autorizacion']; 
+		     $pagos=$myrow_not['Tbk_Tipo_Pago']; 
+			} //Fin While
+	$e=0;		
+while($myrow_p = mysql_fetch_array($result_webpaypagos))
+			{
+			$e++;
+		     $costo_producto=$myrow_p['costo_producto'];
+			 $costo_envio=$myrow_p['costo_envio'];
+		     $envio=$myrow_p['envio'];
+			 $t_producto=$myrow_p['PRODUCTO']; 
+			 $t_nombre = $myrow_p['usr_nombre']; 
+			 $t_apellido=$myrow_p['usr_apellido']; 
+			 $t_email=$myrow_p['usr_email'];
+			 $t_compra_fracaso=$myrow_p['TBK_ORDEN_COMPRA'];/* para rescatar la OC fracasada para webpay 6.0*/ 
+					
+			} //Fin While
+			
+
+$tipo_pago="CREDITO";
+switch($pagos){
+   case 'VN':
+      $vn = ("Sin Cuotas");
+      break;
+   case 'SI':
+      $vn= ("Sin Intereses");
+      break;
+   case 'VC':
+      $vn= ("Cuotas Normales");
+      break;
+   case 'CI':
+      $vn= ("Cuotas Normales");
+      break;
+   case 'VD':
+      $vn= ("DEBITO");
+      $tipo_pago="REDCOMPRA";
+      break;
+ }  		
+?>
+
+<?php/* Comienzo para macker Transbank*/?>
+<?php
+    
+
+ $_SESSION['TBK_ID_SESION'] = $_POST['TBK_ID_SESION'];
+    /* Si no hay una sesión creada, redireccionar al index. */
+    if(empty($_SESSION['TBK_ID_SESION']))
+			
+{
+ header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}
+
+
+
+
+			
+?>
+<?php/* traspaso desde StandardController.php*/?>
+
+
+
+<?php/* para macker Transbank*/?>
+<?php
+$_SESSION['TBK_TIPO_TRANSACCION'] = $_POST['TBK_TIPO_TRANSACCION'];
+    /* Si no hay una sesión creada, redireccionar al index. */
+     if($_SESSION['TBK_TIPO_TRANSACCION']== 'TR_NORMAL')
+			
+{
+ header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}
+?>
+
+<?php
+$_SESSION['TBK_CODIGO_AUTORIZACION'] = $_POST['TBK_CODIGO_AUTORIZACION'];
+    /* Si no hay una sesión creada, redireccionar al index. */
+     if($_SESSION['TBK_CODIGO_AUTORIZACION']== 2172589)
+			
+{
+ header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}
+?>
+
+<?php
+$_SESSION['TBK_FECHA_EXPIRACION'] = $_POST['TBK_FECHA_EXPIRACION'];
+    /* Si no hay una sesión creada, redireccionar al index. */
+     if($_SESSION['TBK_FECHA_EXPIRACION']== 122011)
+			
+{
+ header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}
+?>
+
+
+<?php
+$_SESSION['TBK_FECHA_CONTABLE'] = $_POST['TBK_FECHA_CONTABLE'];
+    /* Si no hay una sesión creada, redireccionar al index. */
+     if($_SESSION['TBK_FECHA_CONTABLE']== 122011)
+			
+{
+ header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}
+?>
+
+
+<?php
+$_SESSION['TBK_FECHA_TRANSACCION'] = $_POST['TBK_FECHA_TRANSACCION'];
+    /* Si no hay una sesión creada, redireccionar al index. */
+     if($_SESSION['TBK_FECHA_TRANSACCION']== 122011)
+			
+{
+ header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}
+?>
+
+
+<?php
+$_SESSION['TBK_HORA_TRANSACCION'] = $_POST['TBK_HORA_TRANSACCION'];
+    /* Si no hay una sesión creada, redireccionar al index. */
+     if($_SESSION['TBK_HORA_TRANSACCION']== 1130)
+			
+{
+ header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}
+?>
+
+
+<?php
+$_SESSION['TBK_TIPO_PAGO'] = $_POST['TBK_TIPO_PAGO'];
+    /* Si no hay una sesión creada, redireccionar al index. */
+     if($_SESSION['TBK_TIPO_PAGO']== 1)
+			
+{
+ header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}
+?>
+
+<?php
+$_SESSION['TBK_MAC'] = $_POST['TBK_MAC'];
+    /* Si no hay una sesión creada, redireccionar al index. */
+     if($_SESSION['TBK_MAC']== '123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
+			
+{
+ header('Location: /webpay/standard/cancelview/', TRUE, 303);
+    die('Invalid query: ' . mysql_error());
+}
+?>
+<?php/* fin para macker Transbank*/?>
+
+<div class="padder"><div class="page-head button-level">
+       <div align="justify">
+        <p><span class="Estilo2"><strong><?php echo " $t_nombre" ?><?php echo " $t_apellido" ?></strong>,         </span></p>
+         <p>Gracias por comprar en <strong>tiendamagento.com</strong><br>
+           Nos pondremos en contacto con Ud. para gestionar su orden. Usted puede comprobar el estado de su orden registrándose en su cuenta.<br>
+           
+            Si usted tiene alguna consulta respecto a su orden, por favor, póngase en contacto con <a href="mailto:contacto@tiendamagento.com">contacto@tiendamagento.com</a>, o llámenos al 600 444 000. De Lunes a Viernes, de 9:00 a 18:00 hrs.<br>
+           
+        
+           
+           
+          Gracias otra vez por su compra.</p>
+       </div>
+       <br><br>
+    <h3>
+    Pedido - <?php echo "$t_compra" ?>  </h3>
+</div>
+
+<div class="col2-set"><p>Fecha del Pedido: <?php echo $fechapedido ?> </p>  <div class="col2-set">
+    <div class="col-1">
+       <div class="head-alt3">
+          
+          <h5 class="title">Método de Pago por Venta de Producto</h5>
+        </div>
+        <!--<p>Tarjeta de Credito / Webpay<br />-->
+       <strong> URL del comercio:</strong> http://www.tiendamagento.com<br />
+        <strong>Tipo de Transacción: </strong>VENTA <br />
+        <strong>Codigo de Autorización: </strong><?php echo "$autorizacion" ?> 
+        <br />
+        <strong>Número de Tarjeta</strong>: XXXXXXXXXXXX-<?php echo "$tar_final" ?> 
+        <br />
+        <strong>Cantidad de Cuotas</strong>: 0<?php echo "$cuotas" ?> 
+        <br />
+        
+        <strong>Tipo de Pago</strong>: <?php echo "$tipo_pago" ?>
+        <br />
+        
+        <strong>Tipo de Cuotas</strong>: <?php echo "$vn" ?>
+    </div>
+
+</div>
+
+
+<!-- ****************************** Comienzo 30/12/2013 *******************************-->
+<style>
+.espaciowebpay {
+
+margin-top: 25px;
+}
+.espaciodevolucion {
+
+margin-top: 45px;
+}
+</style>
+<div class="espaciowebpay"></div>
+<div class="head-alt3">
+            <h5 class="title">Artículos pedidos</h5>
+</div>
+<?php
+$order_id = Mage::getSingleton('checkout/session')->getLastRealOrderId(); 
+$order_details = Mage::getModel('sales/order')->loadByIncrementId($order_id); 
+?>
+
+<table border="0" bordercolor="#FFCC00" style="background-color:#FFFFCC" width="100%" cellpadding="4" cellspacing="4">
+<tr>
+		<td><strong>Producto</strong></td>
+		<td><strong>Cantidad</strong></td>
+		<td><strong>Precio Unitario</strong></td>
+		<td><strong>Subtotal</strong></td>
+</tr> 
+	
+	    
+        <?php foreach ($order_details->getAllVisibleItems() as $item) {  
+         echo '<div class="product">'; 
+        ?> 
+        
+        
+        
+<tr>
+		<td><?php 
+         echo '<div class="line">
+         ' . $item->getName() . '';?></td>
+         <td><?php echo '' . round($item->getQtyOrdered(), 0) . '';?></td>
+		<td width="25%"><?php echo '' . Mage::helper("core")->currency($item->getPrice()) . '';?></td>
+		<td width="25%"><?php echo '' . Mage::helper("core")->currency($item->getPrice()*$item->getQtyOrdered()) . '';?></td>
+		
+</tr>
+      
+<?php
+echo '</div>';        
+    }  
+
+    $product_id = $item->getData('product_id');  
+
+?>
+</table>
+<!-- mostrar descuento 26-01-2014 -->
+<?php
+$coupon = Mage::getModel('salesrule/rule');
+$couponCollection = $coupon->getCollection();
+foreach($couponCollection as $c){
+//echo 'Code:'.$c->getCode().'--->Discount Amount:'.$c->getDiscountAmount().'<br />';
+}
+$discount = $c->getDiscountAmount();
+
+function number_format_clean($number,$precision=0,$dec_point='.',$thousands_sep=',')
+    {
+    RETURN trim(number_format($number,$precision,$dec_point,$thousands_sep),''.$dec_point);
+    }
+
+//echo number_format_clean($discount);
+//echo $costo_producto; 
+
+function tanto_porciento($porcentaje,$de){
+$tanto_porciento=$de*$porcentaje/100;
+return $tanto_porciento;
+}
+
+$porcentaje= number_format_clean($discount);
+$de = $costo_producto;
+$tanto_porciento=tanto_porciento($porcentaje,$de);
+//echo "El ".$porcentaje."% de ".$de." es: ".$tanto_porciento; 
+?> 
+<!-- fin mostrar descuento 26-01-2014 -->
+<table border="0" bordercolor="#FFCC00" style="background-color:#cfe2ff" width="50%" cellpadding="3" cellspacing="3" align="right">
+
+<tr>	
+		<td><strong>Descuento</strong></td>
+		<td>$-<?php echo number_format($tanto_porciento, 0, '', '.') ?></td>
+</tr>
+
+
+<tr>	
+		<td><strong>Costo Envío</strong></td>
+		<td>$<?php echo number_format($costo_envio, 0, '', '.') ?></td>
+</tr> 
+<tr>
+<td><strong>Total</strong></td>
+<td width="50%">$<?php echo number_format($t_monto, 0, '', '.') ?></td>
+</tr>
+</table>
+<div class="espaciodevolucion"></div>
+<!-- ****************************** fin 30/12/2013 *******************************-->
+
+
+  <strong>La entrega de su pedido se realizará dependiendo de su región    
+   </strong><br>
+   <strong>Para devoluciones y reembolsos de productos o para reclamos de productos contactarnos a: </strong> <a href="mailto:contacto@tiendamagento.com">contacto@tiendamagento.com</a></strong><br />
+<div class="col2-set">
+    <div class="col-1">
+
+        <div class="head-alt3">
+           
+        </div>
+        <address>
+</address>
+    </div>
+    <br />
+Fono: 600 444 000<br />
+<a href="mailto:contacto@mejorvivirmas.com">contacto@tiendamagento.com</a><br />
+Dirección: Calle Demo 300 - Oficina 600<br />
+Comuna: Las Condes<br />
+Ciudad: Santiago - Chile<br />
+Horario: Lunes a Viernes de 09:00 a 19:00 Hrs
+</div>
+</div>
+</div> 
+
+

@@ -1,0 +1,225 @@
+<?php
+
+$trs_orden_compra = $_POST['TBK_ORDEN_COMPRA'];
+$hostname = "localhost";
+$database = "webpaynew";
+$username = "webpaynew";
+$password = "europa5150";
+$conexion = mysql_connect($hostname, $username, $password);
+mysql_select_db($database ,$conexion) or die("Error seleccionando la base de datos."); 
+mysql_query("SET NAMES 'utf8'");//esta función pone los acentos y eñes en la base de datos
+$sql_webpaypagos = "SELECT * FROM webpaypagos  order by TBK_ORDEN_COMPRA DESC Limit 1";
+$sql_webpay = "SELECT * FROM webpay order by TBK_ORDEN_COMPRA DESC Limit 1 ";
+
+//$result_port = mysql_query($sql_port, $conn);
+$fechapedido = date("Y-m-d");
+$result_webpaypagos = mysql_query($sql_webpaypagos, $conexion);
+$result_webpay = mysql_query($sql_webpay, $conexion);
+
+
+//Ingresado en 17-12-2012 para que al momento de "hackeo por parte de transbank se vaya a página de exito y no muestre duplate entry         
+
+ 
+	
+//Fin ingresado en 17-12-2012 para que al momento de "hackeo por parte de transbank se vaya a página de exito y no muestre duplate entry	
+
+
+$i=0;
+while($myrow_not = mysql_fetch_array($result_webpay))
+			{
+			$i++;
+		     
+			 $t_compra=$myrow_not['Tbk_Orden_Compra']; 
+			 $t_monto = $myrow_not['Tbk_Monto']; 
+			 $tar_final=$myrow_not['Tbk_Final_numero_Tarjeta']; 
+			 $cuotas=$myrow_not['Tbk_Numero_Cuotas']; 
+			 $autorizacion=$myrow_not['Tbk_Codigo_Autorizacion']; 
+		     $pagos=$myrow_not['Tbk_Tipo_Pago']; 
+			} //Fin While
+	$e=0;		
+while($myrow_p = mysql_fetch_array($result_webpaypagos))
+			{
+			$e++;
+		     $costo_producto=$myrow_p['costo_producto'];
+			 $costo_envio=$myrow_p['costo_envio'];
+		     $envio=$myrow_p['envio'];
+			 $t_producto=$myrow_p['PRODUCTO']; 
+			 $t_nombre = $myrow_p['usr_nombre']; 
+			 $t_apellido=$myrow_p['usr_apellido']; 
+			 $t_email=$myrow_p['usr_email'];
+			 $t_compra_fracaso=$myrow_p['TBK_ORDEN_COMPRA'];/* para rescatar la OC fracasada para webpay 6.0*/ 
+					
+			} //Fin While
+			
+
+$tipo_pago="CREDITO";
+switch($pagos){
+   case 'VN':
+      $vn = ("Sin Cuotas");
+      break;
+   case 'SI':
+      $vn= ("Sin Intereses");
+      break;
+   case 'VC':
+      $vn= ("Cuotas Normales");
+      break;
+   case 'CI':
+      $vn= ("Cuotas Normales");
+      break;
+   case 'VD':
+      $vn= ("DEBITO");
+      $tipo_pago="REDCOMPRA";
+      break;
+ }  		
+?>
+
+
+
+
+<div class="padder"><div class="page-head button-level">
+       <div align="justify">
+        <p><span class="Estilo2"><strong><?php echo " $t_nombre" ?><?php echo " $t_apellido" ?></strong>,         </span></p>
+         <p>Gracias por comprar en <strong>tiendamagento.com</strong><br>
+           Nos pondremos en contacto con Ud. para gestionar su orden. Usted puede comprobar el estado de su orden registrándose en su cuenta.<br>
+           
+            Si usted tiene alguna consulta respecto a su orden, por favor, póngase en contacto con <a href="mailto:contacto@tiendamagento.com">contacto@tiendamagento.com</a>, o llámenos al 600 444 000. De Lunes a Viernes, de 9:00 a 18:00 hrs.<br>
+           
+        
+           
+           
+          Gracias otra vez por su compra.</p>
+       </div>
+       <br><br>
+    <h3>
+    Pedido - <?php echo "$t_compra" ?>  </h3>
+</div>
+
+<div class="col2-set"><p>Fecha del Pedido: <?php echo $fechapedido ?> </p>  <div class="col2-set">
+    <div class="col-1">
+       <div class="head-alt3">
+          
+          <h5 class="title">Método de Pago por Venta de Producto</h5>
+        </div>
+        <!--<p>Tarjeta de Credito / Webpay<br />-->
+       <strong> URL del comercio:</strong> http://www.tiendamagento.com<br />
+        <strong>Tipo de Transacción: </strong>VENTA <br />
+        <strong>Codigo de Autorización: </strong><?php echo "$autorizacion" ?> 
+        <br />
+        <strong>Número de Tarjeta</strong>: XXXXXXXXXXXX-<?php echo "$tar_final" ?> 
+        <br />
+        <strong>Cantidad de Cuotas</strong>: 0<?php echo "$cuotas" ?> 
+        <br />
+        
+        <strong>Tipo de Pago</strong>: <?php echo "$tipo_pago" ?>
+        <br />
+        
+        <strong>Tipo de Cuotas</strong>: <?php echo "$vn" ?>
+    </div>
+    <div class="col-2">
+
+        <div class="head-alt3">
+            <h5 class="title">Artículos pedidos</h5>
+        </div>
+        
+<?php
+     //loading the order object 
+    $orderObj = Mage::getModel('sales/order')->loadByIncrementId($this->getOrderId());
+    //get all the items included on the order. 
+    $orderItems = $orderObj->getAllItems();
+
+    //do a loop to get the sku of each item
+foreach($orderItems as $item)
+{
+  //you can either echo each sku of the order / you can use array variable to pass items sku’s
+  echo  $item->getSku();
+}
+?>        
+        
+        
+<?php
+
+/*
+$order = Mage::getModel('sales/order')->load(4);
+$_totalData = $order->getData();
+print_r($_totalData);
+*/
+?>
+
+         <strong>Nombre del Producto</strong> :<?php echo $t_producto?>
+ <br /> 
+ <strong>Costo de Producto en Pesos</strong>: $<?php echo "$costo_producto" ?><br />
+ <?php echo "$envio" ?> 
+ <strong>- Costo de envío en Pesos</strong>: $<?php echo "$costo_envio" ?><br />
+ <strong>Monto Total en Pesos</strong>: $<?php echo "$t_monto" ?>
+        <br />      
+    </div>
+</div>
+  <strong>La entrega de su pedido se realizará dependiendo de su región    
+   </strong><br>
+   <strong>Para devoluciones y reembolsos de productos o para reclamos de productos contactarnos a: </strong> <a href="mailto:contacto@tiendamagento.com">contacto@tiendamagento.com</a></strong><br />
+<div class="col2-set">
+    <div class="col-1">
+
+        <div class="head-alt3">
+           
+        </div>
+        <address>
+</address>
+    </div>
+    <br />
+Fono: 600 444 000<br />
+<a href="mailto:contacto@mejorvivirmas.com">contacto@tiendamagento.com</a><br />
+Dirección: Calle Demo 300 - Oficina 600<br />
+Comuna: Las Condes<br />
+Ciudad: Santiago - Chile<br />
+Horario: Lunes a Viernes de 09:00 a 19:00 Hrs
+</div>
+</div>
+</div> 
+<?php
+  
+ $order_id = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+$order = Mage::getModel('sales/order')->loadByIncrementId($order_id);
+echo "subTotal: " . $order->getSubtotal() . "<br>";
+echo "grand total: " . $order->getGrandTotal() . "<br>";
+$items = $order->getAllVisibleItems();
+$itemcount=count($items);
+echo "itemcount: $itemcount<br>";
+$name=array();
+$unitPrice=array();
+$sku=array();
+$ids=array();
+$qty=array();
+foreach ($items as $itemId => $item)
+{
+    $name[] = $item->getName();
+    $unitPrice[]=$item->getPrice();
+    $sku[]=$item->getSku();
+    $ids[]=$item->getProductId();
+    $qty[]=$item->getQtyToInvoice();
+} 
+echo "producto: " . $item->getName() . "<br>";
+echo "cantidad: " . $itemcount . "<br>";
+echo "precio: " . $item->getPrice() . "<br>";
+
+?>
+
+<?php
+// First, let's load some Load order details  
+$order_id = Mage::getSingleton('checkout/session')->getLastRealOrderId(); 
+$order_details = Mage::getModel('sales/order')->loadByIncrementId($order_id); 
+    /*** Product Listing ***/  
+    // Iterate through each product listing the sku, the name, the quantity ordered, and the item price  
+    foreach ($order_details->getAllItems() as $item) {  
+         echo '<div class="product">';  
+         echo '<div class="line"><p class="name">Product:' . $item->getName() . '</p>';  
+         echo '<p class="price">' . Mage::helper("core")->currency($item->getPrice()) . '</p>';  
+         echo '<p class="qty">' . round($item->getQtyOrdered(), 0) . '</p>';  
+         echo '<p class="lineprice">' . Mage::helper("core")->currency($item->getPrice() * $item->getQtyOrdered()) . '</p>';  
+         echo '</div>';  
+         echo '<p class="model">SKU: ' . $item->getSku() . '</p>';  
+         echo '</div>';  
+    }  
+    // Get the product id from the item (useful later for loading product attribute information)  
+    $product_id = $item->getData('product_id');  
+?>

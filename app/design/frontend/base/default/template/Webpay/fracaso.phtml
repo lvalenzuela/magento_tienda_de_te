@@ -1,0 +1,110 @@
+<?php
+//$trs_orden_compra = $_POST['TBK_ORDEN_COMPRA'];
+$hostname = "localhost";
+$database = "magento";
+$username = "kongo_developer";
+$password = "i1dont2know3";
+$conexion = mysql_connect($hostname, $username, $password);
+mysql_select_db($database ,$conexion) or die("Error seleccionando la base de datos."); 
+mysql_query("SET NAMES 'utf8'");//esta función pone los acentos y eñes en la base de datos
+$sql_webpaypagos = "SELECT * FROM webpaypagos  order by TBK_ORDEN_COMPRA DESC Limit 1";
+$sql_webpay = "SELECT * FROM webpay order by TBK_ORDEN_COMPRA DESC Limit 1 ";
+
+//$result_port = mysql_query($sql_port, $conn);
+$fechapedido = date("Y-m-d");
+$result_webpaypagos = mysql_query($sql_webpaypagos, $conexion);
+$result_webpay = mysql_query($sql_webpay, $conexion);
+
+$i=0;
+while($myrow_not = mysql_fetch_array($result_webpay))
+			{
+			$i++;
+		     
+			 $t_compra=$myrow_not['Tbk_Orden_Compra']; 
+			 $t_monto = $myrow_not['Tbk_Monto']; 
+			 $tar_final=$myrow_not['Tbk_Final_numero_Tarjeta']; 
+			 $cuotas=$myrow_not['Tbk_Numero_Cuotas']; 
+			 $autorizacion=$myrow_not['Tbk_Codigo_Autorizacion']; 
+		     $pagos=$myrow_not['Tbk_Tipo_Pago']; 
+			} //Fin While
+	$e=0;		
+while($myrow_p = mysql_fetch_array($result_webpaypagos))
+			{
+			$e++;
+		     $costo_producto=$myrow_p['costo_producto'];
+			 $costo_envio=$myrow_p['costo_envio'];
+		     $envio=$myrow_p['envio'];
+			 $t_producto=$myrow_p['PRODUCTO']; 
+			 $t_nombre = $myrow_p['usr_nombre']; 
+			 $t_apellido=$myrow_p['usr_apellido']; 
+			 $t_email=$myrow_p['usr_email'];
+			 $t_compra_fracaso=$myrow_p['TBK_ORDEN_COMPRA'];/*  para rescatar la OC fracasada para webpay 6.0*/ 
+					
+			} //Fin While
+			
+/*
+$tipo_pago="CREDITO";
+switch($pagos){
+   case 'VN':
+      $vn = ("Sin Cuotas");
+      break;
+   case 'SI':
+      $vn= ("Sin Intereses");
+      break;
+   case 'VC':
+      $vn= ("Cuotas Normales");
+      break;
+   case 'CI':
+      $vn= ("Cuotas Normales");
+      break;
+   case 'VD':
+      $vn= ("DEBITO");
+      $tipo_pago="REDCOMPRA";
+      break;
+ } 
+*/  		
+?> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<html>
+<head>
+<style type="text/css">
+<!--
+a:link {
+	color: #CC9900;
+}
+a:visited {
+	color: #CC9900;
+}
+a:hover {
+	color: #CC9900;
+}
+a:active {
+	color: #CC9900;
+}
+.Estilo1 {font-size: 12px}
+-->
+</style></head>
+
+
+<div class="padder" style="font-family:Arial;">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+   <p class="Estilo1">Hola <span class="Estilo2"><strong><?php echo " $t_nombre" ?><?php echo " $t_apellido" ?></strong>,</span><br />
+		
+Las posibles causas de este rechazo son:<br />
+<br />
+
+- Error en el ingreso de los datos de su tarjeta de <strong>crédito o Debito</strong> (fecha y/o código de seguridad).<br />
+- Su tarjeta de <strong>crédito o debito</strong> no cuenta con el cupo necesario para cancelar la compra.<br />
+- Tarjeta aún no habilitada en el sistema financiero.  <br />
+<!-- eliminado por Transbank el día 29-01-2014 en llamada telefonica nos dicen que esta linea desaparece -->
+<!--
+- Si el problema persiste favor comunicarse con su Banco emisor.<br />
+-->
+<!-- eliminado por Transbank el día 29-01-2014 en llamada telefonica nos dicen que esta linea desaparece -->
+</p>
+   <h3>Pedido - N°<?php echo "$t_compra_fracaso" ?>  </h3>
+<p style="font-size:12px;"<strong>Para devoluciones  o reclamos contáctanos a:</strong> <a href="mailto:ventas@tiendamagento.com">ventas@tiendamagento.com</a><br />
+</p>
+   
+
+</div>

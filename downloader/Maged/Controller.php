@@ -397,7 +397,7 @@ final class Maged_Controller
         $info =& $_FILES['file'];
 
         if(0 !== intval($info['error'])) {
-            echo "File upload problem";
+            echo "File upload problem". $info['error'];
             return;
         }
 

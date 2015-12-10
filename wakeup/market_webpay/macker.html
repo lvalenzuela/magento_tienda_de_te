@@ -1,0 +1,111 @@
+<head>
+<title>MACKER</title>
+<meta http-equiv="x-ua-compatible" content="IE=8">
+</head>
+<style>
+body
+{
+	margin: 0;
+    padding: 0;
+}
+
+body *
+{
+	font-family: sans-serif;
+}
+
+#Contenido
+{
+     background-color: #49BEFB;
+    border: 2px solid #295F7B;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+   /* width: 500px;*/
+}
+
+form
+{
+margin: 0;
+}
+
+form label
+{
+    display: inline-block;
+    font-weight: bolder;
+    margin: 1px 0;
+    text-align: left;
+    width: 200px;
+}
+
+form input
+{
+	width: 250px;
+	margin: 1px 0;
+}
+
+.Largo
+{
+font-weight: bold;
+    height: 28px;
+    width: 452px !important;
+	/*width: 100% !important;*/
+}
+
+form input[type="text"]
+{
+border: 1px solid #295F7B;
+}
+form label.InputLargo + Input
+{
+width: 452px !important;	
+}
+form label.InputLargo
+{
+ display: block;
+ width: 452px !important;
+}
+
+form #RUTA
+{
+    background: none repeat fixed 0 0 #DFFFB2;
+}
+
+</style>
+<script>
+function enviarform()
+{
+document.Webpay.action=document.getElementById("RUTA").value;
+if(document.Webpay.TBK_REFERER.value.length==0)(document.Webpay.TBK_REFERER.name="")
+document.Webpay.submit();
+}
+</script>
+<body>
+<center>
+<div id="Contenido">
+<form name="Webpay" action="" method=post>
+<label class="InputLargo" for="RUTA">Ruta de envio</label><input type=text id="RUTA" value=""></br>
+<label for="TBK_TIPO_TRANSACCION">Tipo Transaccion</label><input type=text id="TBK_TIPO_TRANSACCION" name="TBK_TIPO_TRANSACCION" value="TR_NORMAL"></br>
+<label for="TBK_RESPUESTA">Respuesta Transbank</label><input type=text id="TBK_RESPUESTA" name="TBK_RESPUESTA" value=""></br>
+<label for="TBK_ORDEN_COMPRA">Orden Compra</label><input type=text id="TBK_ORDEN_COMPRA" name="TBK_ORDEN_COMPRA" value=""></br>
+<label for="TBK_ID_SESION">ID Sesion</label><input type=text id="TBK_ID_SESION" name="TBK_ID_SESION" value=""></br>
+<label for="TBK_CODIGO_AUTORIZACION">Codigo Autorizacion</label><input type=text id="TBK_CODIGO_AUTORIZACION" name="TBK_CODIGO_AUTORIZACION" value="2172589"></br>
+<label for="TBK_MONTO">Monto</label><input type=text id="TBK_MONTO" name="TBK_MONTO" value=""></br>
+<label for="TBK_FINAL_NUMERO_TARJETA">Numero Final de Tarjeta</label><input type=text id="TBK_FINAL_NUMERO_TARJETA" name="TBK_FINAL_NUMERO_TARJETA" value="9674"></br>
+<label for="TBK_FECHA_EXPIRACION">Fecha Expiracion</label><input type=text id="TBK_FECHA_EXPIRACION" name="TBK_FECHA_EXPIRACION" value="122011"></br>
+<label for="TBK_FECHA_CONTABLE">Fecha Contable</label><input type=text id="TBK_FECHA_CONTABLE" name="TBK_FECHA_CONTABLE" value="122011"></br>
+<label for="TBK_FECHA_TRANSACCION">Fecha Transaccion</label><input type=text id="TBK_FECHA_TRANSACCION" name="TBK_FECHA_TRANSACCION" value="012011"></br>
+<label for="TBK_HORA_TRANSACCION">Hora Transaccion</label><input type=text id="TBK_HORA_TRANSACCION" name="TBK_HORA_TRANSACCION" value="1130"></br>
+<label for="TBK_ID_TRANSACCION">Id Transaccion</label><input type=text id="TBK_ID_TRANSACCION" name="TBK_ID_TRANSACCION" value="1131"></br>
+<label for="TBK_TIPO_PAGO">Tipo Pago</label><input type=text id="TBK_TIPO_PAGO" name="TBK_TIPO_PAGO" value="1"></br>
+<label for="TBK_NUMERO_CUOTAS">Numero Cuotas</label><input type=text id="TBK_NUMERO_CUOTAS" name="TBK_NUMERO_CUOTAS" value="0"></br>
+<label for="TBK_MAC">MAC</label><input type=text id="TBK_MAC" name="TBK_MAC" value="123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"></br>
+<label for="TBK_TASA_INTERES_MAX">Tasa Interes</label><input type=text id="TBK_TASA_INTERES_MAX" name="TBK_TASA_INTERES_MAX" value="0"></br>
+<label class="InputLargo" for="TBK_URL_EXITO">URL Exito</label><input type=text id="TBK_URL_EXITO" name="TBK_URL_EXITO" value=""></br>
+<label class="InputLargo" for="TBK_URL_FRACASO">URL Fracaso</label><input type=text id="TBK_URL_FRACASO" name="TBK_URL_FRACASO" value=""></br>
+<label class="InputLargo" for="TBK_REFERER">Referer</label><input type=text id="TBK_REFERER" name="TBK_REFERER" value=""></br>
+<input class="Largo" type=BUTTON onClick="enviarform()"Value="ENVIAR"></input>
+</form>
+</div>
+</center>
+</body>

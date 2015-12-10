@@ -32,19 +32,19 @@
 ## adjust memory limit
 
 #    php_value memory_limit 64M
-    php_value memory_limit 256M
-    php_value max_execution_time 18000
+    #php_value memory_limit 256M
+    #php_value max_execution_time 18000
 
 ############################################
 ## disable magic quotes for php request vars
 
-    php_flag magic_quotes_gpc off
+    #php_flag magic_quotes_gpc off
 
 ############################################
 ## disable automatic session start
 ## before autoload was initialized
 
-    php_flag session.auto_start off
+    #php_flag session.auto_start off
 
 ############################################
 ## enable resulting html compression
@@ -54,12 +54,12 @@
 ###########################################
 # disable user agent verification to not break multiple image upload
 
-    php_flag suhosin.session.cryptua off
+    #php_flag suhosin.session.cryptua off
 
 ###########################################
 # turn off compatibility with PHP4 when dealing with objects
 
-    php_flag zend.ze1_compatibility_mode Off
+    #php_flag zend.ze1_compatibility_mode Off
 
 </IfModule>
 
@@ -167,6 +167,7 @@
 ## rewrite everything else to index.php
 
     RewriteRule .* index.php [L]
+    #RewriteRule ^(.+)$ /index.php/$1 [L,QSA]
 
 </IfModule>
 
@@ -207,3 +208,34 @@
 ## http://developer.yahoo.com/performance/rules.html#etags
 
     #FileETag none
+
+###########################################
+## Deny access to cron.php
+    <Files cron.php>
+
+############################################
+## uncomment next lines to enable cron access with base HTTP authorization
+## http://httpd.apache.org/docs/2.2/howto/auth.html
+##
+## Warning: .htpasswd file should be placed somewhere not accessible from the web.
+## This is so that folks cannot download the password file.
+## For example, if your documents are served out of /usr/local/apache/htdocs
+## you might want to put the password file(s) in /usr/local/apache/.
+
+        #AuthName "Cron auth"
+        #AuthUserFile ../.htpasswd
+        #AuthType basic
+        #Require valid-user
+
+############################################
+
+        Order allow,deny
+        Deny from all
+
+    </Files>
+
+<IfModule sapi_apache2.c>
+  php_value register_globals 1
+</IfModule>
+
+#php_flag register_globals 1
